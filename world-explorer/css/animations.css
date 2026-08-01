@@ -1,0 +1,56 @@
+/* ===== אנימציות עדינות — קצב איטי ורגוע ===== */
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.25; }
+  50%      { opacity: 0.85; }
+}
+
+@keyframes float-soft {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+
+.float      { animation: float-soft 3.5s ease-in-out infinite; }
+.float-slow { animation: float-soft 5s ease-in-out infinite; }
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(255, 224, 138, 0.4); }
+  50%      { box-shadow: 0 0 26px rgba(255, 224, 138, 0.9); }
+}
+
+@keyframes pop {
+  0%   { transform: scale(0.6); }
+  70%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0); }
+  25%      { transform: translateX(-6px); }
+  75%      { transform: translateX(6px); }
+}
+
+.wiggle { animation: wiggle 0.4s ease; }
+
+@keyframes stamp-in {
+  0%   { transform: scale(2.4) rotate(-18deg); opacity: 0; }
+  60%  { transform: scale(0.95) rotate(3deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); }
+}
+
+.stamp-in { animation: stamp-in 0.9s ease; }
+
+@keyframes sleepy-sway {
+  0%, 100% { transform: rotate(-4deg); }
+  50%      { transform: rotate(4deg); }
+}
+
+@keyframes night-fall {
+  from { filter: brightness(1); }
+  to   { filter: brightness(0.55); }
+}

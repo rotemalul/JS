@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>מסביב לעולם 🌍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div id="stars" aria-hidden="true"></div>
+  <div id="dim-overlay" aria-hidden="true"></div>
+
+  <button id="mute-btn" aria-label="השתקה">🔊</button>
+
+  <main id="app">
+
+    <!-- מסך פתיחה -->
+    <section id="screen-home" class="screen active">
+      <div class="moon float" aria-hidden="true">🌙</div>
+      <h1 class="app-title">מסביב לעולם</h1>
+      <div class="owl float-slow" aria-hidden="true">🦉</div>
+      <p class="owl-say">היי! אני נוני הינשוף.<br>בואו נטוס הלילה למדינה חדשה!</p>
+      <button class="big-btn" id="btn-start">✈️ בואו נטוס!</button>
+      <button class="mid-btn" id="btn-passport">🛂 הדרכון שלי</button>
+    </section>
+
+    <!-- מסך מפת העולם -->
+    <section id="screen-map" class="screen">
+      <header class="screen-header">
+        <button class="back-btn" data-back="screen-home" aria-label="חזרה">→</button>
+        <h2>לאן טסים הלילה?</h2>
+        <span class="header-owl" aria-hidden="true">🦉</span>
+      </header>
+      <div id="country-cards" class="cards-grid"></div>
+    </section>
+
+    <!-- מסך ביקור במדינה -->
+    <section id="screen-country" class="screen">
+      <header class="screen-header">
+        <button class="back-btn" data-back="screen-map" aria-label="חזרה">→</button>
+        <h2 id="country-title"></h2>
+        <span class="header-owl" aria-hidden="true">🦉</span>
+      </header>
+      <p class="hint" id="country-hint">לחצו על הבועות כדי לגלות דברים מעניינים!</p>
+      <div id="country-scene" class="scene"></div>
+      <button class="big-btn glow hidden" id="btn-play-games">🎲 בואו נשחק!</button>
+    </section>
+
+    <!-- מסך משחקון -->
+    <section id="screen-minigame" class="screen">
+      <header class="screen-header">
+        <span class="header-owl big" aria-hidden="true">🦉</span>
+        <h2 id="game-instruction"></h2>
+      </header>
+      <div id="game-progress" class="game-progress"></div>
+      <div id="game-area"></div>
+    </section>
+
+    <!-- מסך חותמת בדרכון -->
+    <section id="screen-stamp" class="screen">
+      <h2 class="stamp-title">כל הכבוד! 🎉</h2>
+      <div id="stamp-book">
+        <div id="stamp-circle" class="stamp-circle stamp-in"></div>
+        <p id="stamp-country-name"></p>
+      </div>
+      <p id="stamp-summary" class="owl-say"></p>
+      <p id="sticker-award" class="sticker-award"></p>
+      <button class="big-btn" id="btn-goodnight">🌙 לילה טוב</button>
+      <button class="mid-btn" id="btn-another">✈️ לבקר במדינה נוספת</button>
+    </section>
+
+    <!-- מסך הדרכון -->
+    <section id="screen-passport" class="screen">
+      <header class="screen-header">
+        <button class="back-btn" data-back="screen-home" aria-label="חזרה">→</button>
+        <h2>🛂 הדרכון שלי</h2>
+        <span class="header-owl" aria-hidden="true">🦉</span>
+      </header>
+      <div id="passport-stamps" class="cards-grid"></div>
+      <h3 class="stickers-title">המדבקות שלי</h3>
+      <div id="sticker-album" class="sticker-album"></div>
+    </section>
+
+    <!-- מסך לילה טוב -->
+    <section id="screen-goodnight" class="screen">
+      <div class="moon float" aria-hidden="true">🌙</div>
+      <div class="owl sleepy" aria-hidden="true">🦉</div>
+      <p class="owl-say big-say" id="goodnight-text">לילה טוב...<br>ניפגש מחר במדינה חדשה 🌙</p>
+      <button class="mid-btn hidden" id="btn-finish">סיום</button>
+    </section>
+
+  </main>
+
+  <!-- חלון עובדה -->
+  <div id="fact-modal" class="modal hidden" role="dialog">
+    <div class="modal-card">
+      <div id="modal-icon" class="modal-icon"></div>
+      <h3 id="modal-title"></h3>
+      <div id="modal-items" class="modal-items"></div>
+      <p id="modal-fact"></p>
+      <button class="mid-btn" id="modal-close">הבנתי! 👍</button>
+    </div>
+  </div>
+
+  <script src="js/flags.js"></script>
+  <script src="data/countries.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/minigames.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
