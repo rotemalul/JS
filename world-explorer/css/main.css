@@ -1,0 +1,494 @@
+/* ===== מסביב לעולם — עיצוב ראשי ===== */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --night-top: #1b1b3f;
+  --night-bottom: #33305e;
+  --card-bg: #3e3a6d;
+  --card-bg-light: #4c477e;
+  --peach: #ffb98a;
+  --turquoise: #7fe3d4;
+  --lemon: #ffe08a;
+  --text: #fdf6ec;
+  --text-soft: #cfc9ec;
+  --radius: 24px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Rubik', 'Heebo', Arial, sans-serif;
+  background: linear-gradient(180deg, var(--night-top), var(--night-bottom));
+  color: var(--text);
+  min-height: 100dvh;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* --- כוכבים ורקע --- */
+#stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  color: #fff;
+  opacity: 0.7;
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+#dim-overlay {
+  position: fixed;
+  inset: 0;
+  background: #2b1a0e;
+  opacity: 0;
+  transition: opacity 60s linear;
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* --- מבנה מסכים --- */
+#app {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px;
+  min-height: 100dvh;
+}
+
+.screen {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  min-height: calc(100dvh - 32px);
+  padding-bottom: 24px;
+  animation: fade-in 0.6s ease;
+}
+
+.screen.active { display: flex; }
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding-top: 6px;
+}
+
+.screen-header h2 {
+  flex: 1;
+  text-align: center;
+  font-size: 1.7rem;
+  color: var(--lemon);
+}
+
+.header-owl { font-size: 2.2rem; }
+.header-owl.big { font-size: 3rem; }
+
+/* --- כפתורים --- */
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  color: #453516;
+}
+
+.big-btn {
+  min-height: 72px;
+  min-width: 240px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 14px 36px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--lemon), var(--peach));
+  box-shadow: 0 6px 0 #c98d5c, 0 10px 24px rgba(0,0,0,0.35);
+  transition: transform 0.15s ease;
+}
+
+.big-btn:active { transform: translateY(4px); box-shadow: 0 2px 0 #c98d5c; }
+
+.mid-btn {
+  min-height: 64px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background: var(--turquoise);
+  box-shadow: 0 4px 0 #4aa99c;
+  color: #10403a;
+  transition: transform 0.15s ease;
+}
+
+.mid-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #4aa99c; }
+
+.back-btn {
+  min-width: 64px;
+  min-height: 64px;
+  font-size: 2rem;
+  border-radius: 50%;
+  background: var(--card-bg-light);
+  color: var(--text);
+}
+
+#mute-btn {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 60;
+  min-width: 56px;
+  min-height: 56px;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+}
+
+.glow { animation: glow-pulse 1.6s ease-in-out infinite; }
+.hidden { display: none !important; }
+
+/* --- מסך פתיחה --- */
+#screen-home { justify-content: center; text-align: center; }
+
+.app-title {
+  font-size: clamp(2.4rem, 8vw, 3.6rem);
+  color: var(--lemon);
+  text-shadow: 0 4px 18px rgba(255, 224, 138, 0.35);
+}
+
+.moon { font-size: 4rem; }
+.owl { font-size: 6rem; }
+.owl.sleepy { animation: sleepy-sway 4s ease-in-out infinite; }
+
+.owl-say {
+  font-size: 1.35rem;
+  color: var(--text-soft);
+  background: var(--card-bg);
+  padding: 16px 26px;
+  border-radius: var(--radius);
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+.big-say { font-size: 1.7rem; }
+
+/* --- מפת מדינות --- */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+  width: 100%;
+}
+
+.country-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text);
+  min-height: 170px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.15s ease;
+  position: relative;
+}
+
+.country-card:active { transform: scale(0.96); }
+
+.country-card .flag-wrap {
+  width: 110px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+  line-height: 0;
+}
+
+.country-card .flag-wrap svg { width: 100%; height: auto; }
+
+.country-card .continent { font-size: 0.95rem; color: var(--text-soft); font-weight: 400; }
+
+.country-card.tonight {
+  background: var(--card-bg-light);
+  outline: 3px solid var(--lemon);
+}
+
+.tonight-badge {
+  position: absolute;
+  top: -12px;
+  inset-inline-start: -8px;
+  background: var(--lemon);
+  color: #453516;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.visited-badge {
+  position: absolute;
+  top: 8px;
+  inset-inline-end: 10px;
+  font-size: 1.3rem;
+}
+
+/* --- מסך מדינה --- */
+.hint { color: var(--text-soft); font-size: 1.1rem; text-align: center; }
+
+.scene {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  width: 100%;
+  background: radial-gradient(circle at 50% 0%, #4c477e 0%, transparent 70%);
+  border-radius: var(--radius);
+  padding: 18px 10px;
+}
+
+.hotspot {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--text);
+  font-size: 1.05rem;
+  min-height: 130px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  animation: float-soft 4s ease-in-out infinite;
+  transition: transform 0.15s ease;
+}
+
+.hotspot:active { transform: scale(0.95); }
+
+.hotspot .hotspot-icon { font-size: 2.6rem; line-height: 1; }
+.hotspot .hotspot-icon svg { width: 64px; height: auto; border-radius: 8px; }
+
+.hotspot.seen { background: var(--card-bg-light); }
+.hotspot.seen::after { content: '✨'; font-size: 1rem; }
+
+/* --- משחקונים --- */
+.game-progress { display: flex; gap: 10px; }
+
+.game-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--card-bg-light);
+}
+
+.game-dot.done { background: var(--lemon); }
+.game-dot.now { background: var(--turquoise); animation: glow-pulse 1.5s infinite; }
+
+#game-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.options-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+}
+
+.option-btn {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 18px;
+  min-width: 140px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  color: var(--text);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  transition: transform 0.15s ease, opacity 0.3s ease;
+}
+
+.option-btn:active { transform: scale(0.95); }
+.option-btn .opt-emoji { font-size: 3.2rem; line-height: 1; }
+.option-btn svg { width: 120px; height: auto; border-radius: 10px; }
+.option-btn.dimmed { opacity: 0.25; pointer-events: none; }
+.option-btn.correct { outline: 4px solid var(--lemon); animation: pop 0.5s ease; }
+
+/* פאזל דגל */
+.puzzle-board {
+  direction: ltr;   /* שהדגל יורכב בכיוון הנכון ולא כתמונת ראי */
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 6px;
+}
+
+.puzzle-slot {
+  background: var(--card-bg);
+  border: 3px dashed var(--text-soft);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.puzzle-slot.filled { border-style: solid; border-color: var(--lemon); }
+
+.puzzle-pieces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.puzzle-piece {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  box-shadow: 0 5px 14px rgba(0,0,0,0.4);
+  transition: transform 0.15s ease;
+  background: var(--card-bg);
+}
+
+.puzzle-piece.selected { outline: 4px solid var(--turquoise); transform: scale(1.06); }
+
+/* כל חלק מציג רבע מהדגל: ה-SVG המלא בגודל כפול, מוזז לפי השורה והעמודה */
+.piece-svg {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+}
+.piece-svg svg { width: 100%; height: 100%; display: block; }
+
+.celebrate-burst {
+  font-size: 3rem;
+  animation: pop 0.7s ease;
+  text-align: center;
+}
+
+/* --- חותמת ודרכון --- */
+.stamp-title { font-size: 2.2rem; color: var(--lemon); }
+
+#stamp-book {
+  background: #5b3a2e;
+  border-radius: var(--radius);
+  padding: 30px 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.4);
+}
+
+.stamp-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid var(--lemon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fdf6ec;
+}
+
+.stamp-circle svg { width: 90px; height: auto; }
+
+#stamp-country-name { font-size: 1.4rem; font-weight: 700; }
+
+.sticker-award { font-size: 1.2rem; color: var(--turquoise); }
+
+.stamp-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.15rem;
+  color: var(--text);
+  min-height: 150px;
+}
+
+.stamp-card .stamp-circle { width: 90px; height: 90px; }
+.stamp-card .stamp-circle svg { width: 62px; }
+
+.stickers-title { color: var(--lemon); font-size: 1.3rem; }
+
+.sticker-album {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 18px;
+  width: 100%;
+  min-height: 80px;
+  font-size: 2.2rem;
+}
+
+.empty-note { color: var(--text-soft); font-size: 1.05rem; }
+
+/* --- מודאל עובדה --- */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 14, 40, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 40;
+  padding: 16px;
+}
+
+.modal-card {
+  background: var(--card-bg-light);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  max-width: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  animation: pop 0.35s ease;
+}
+
+.modal-icon { font-size: 4.2rem; line-height: 1; }
+.modal-icon svg { width: 140px; height: auto; border-radius: 10px; }
+
+.modal-card h3 { font-size: 1.5rem; color: var(--lemon); }
+
+.modal-items { display: flex; gap: 16px; font-size: 2.8rem; }
+
+#modal-fact { font-size: 1.25rem; line-height: 1.6; color: var(--text); }
+
+/* --- לילה טוב --- */
+#screen-goodnight { justify-content: center; animation: night-fall 6s ease forwards; }
+
+@media (max-width: 480px) {
+  .puzzle-board { grid-template-columns: repeat(2, 120px); grid-template-rows: repeat(2, 80px); }
+  .puzzle-piece { width: 120px; height: 80px; }
+}
