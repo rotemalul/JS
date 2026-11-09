@@ -1,0 +1,15 @@
+# Local environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# User data: never commit documents or logs
+sign_jobs/
+compressed/
+uploads/
+*.pdf
+*.log
+
+# macOS
+.DS_Store
