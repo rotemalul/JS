@@ -1,0 +1,2243 @@
+{
+  "generated": "2026-11-17T22:30:46",
+  "for_date": "2026-11-17",
+  "weekday": "tue",
+  "deals_active": [
+    "שלישי שוק – ויקטורי נתיבות"
+  ],
+  "products": [
+    {
+      "id": "paper-cups",
+      "name": "כוסות נייר",
+      "qty": 1.0
+    },
+    {
+      "id": "huggies-wipes",
+      "name": "מגבוני האגיס",
+      "qty": 3.0
+    },
+    {
+      "id": "touch-towels-6",
+      "name": "מגבות נייר טאצ' 6",
+      "qty": 1.0
+    },
+    {
+      "id": "pads-40",
+      "name": "פדים 40 יח' (?)",
+      "qty": 1.0
+    },
+    {
+      "id": "finish-salt-2kg",
+      "name": "פיניש מלח למדיח 2 ק\"ג",
+      "qty": 2.0
+    },
+    {
+      "id": "pampers-premium",
+      "name": "פמפרס פרימיום VP",
+      "qty": 3.0
+    },
+    {
+      "id": "toothpicks",
+      "name": "קיסמים (?)",
+      "qty": 1.0
+    },
+    {
+      "id": "asado",
+      "name": "אסאדו ללא עצם טרי",
+      "qty": 1.09
+    },
+    {
+      "id": "beef-ground",
+      "name": "בשר בקר טחון טרי",
+      "qty": 2.5
+    },
+    {
+      "id": "salmon-portions",
+      "name": "מנות סלמון נורווגי",
+      "qty": 0.7
+    },
+    {
+      "id": "hotdogs-yechiam",
+      "name": "נקניקיות עוף יחיעם",
+      "qty": 1.0
+    },
+    {
+      "id": "pastrami-hermon",
+      "name": "פסטרמה כפרית חרמון",
+      "qty": 1.0
+    },
+    {
+      "id": "pargiyot",
+      "name": "פרגיות טריות",
+      "qty": 0.44
+    },
+    {
+      "id": "kabanos-garlic",
+      "name": "קבנוס בתיבול שום",
+      "qty": 1.0
+    },
+    {
+      "id": "kabanos-135",
+      "name": "קבנוס מעודן 135 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "chicken-cocktail",
+      "name": "קוקטייל עוף מקוצב",
+      "qty": 2.24
+    },
+    {
+      "id": "roastbeef",
+      "name": "רוסטביף (מעדנייה)",
+      "qty": 0.28
+    },
+    {
+      "id": "apropo-50",
+      "name": "אפרופו 50 ג'",
+      "qty": 3.0
+    },
+    {
+      "id": "bisli-bbq-70",
+      "name": "ביסלי ברביקיו 70 ג'",
+      "qty": 3.0
+    },
+    {
+      "id": "bisli-pizza-70",
+      "name": "ביסלי פיצה 70 ג'",
+      "qty": 3.0
+    },
+    {
+      "id": "bamba-10pack",
+      "name": "במבה מארז 10*25 ג'",
+      "qty": 2.0
+    },
+    {
+      "id": "milka-milk",
+      "name": "מילקה שוקולד חלב",
+      "qty": 3.0
+    },
+    {
+      "id": "gum-mint",
+      "name": "מסטיק בטעם מנטה",
+      "qty": 4.0
+    },
+    {
+      "id": "cheetos-crunch-cheese",
+      "name": "ציטוס קראנץ' גבינה",
+      "qty": 3.0
+    },
+    {
+      "id": "actimel",
+      "name": "אקטימל (מארז)",
+      "qty": 1.0
+    },
+    {
+      "id": "eggs-12",
+      "name": "ביצים L 12",
+      "qty": 1.0
+    },
+    {
+      "id": "cream-cheese-5-250",
+      "name": "גבינה לבנה/קרם גבינה 5% 250 ג' (סקי)",
+      "qty": 2.0
+    },
+    {
+      "id": "cheese-triangles-naama",
+      "name": "גבינה מותכת משולשים נעמה",
+      "qty": 1.0
+    },
+    {
+      "id": "yellow-cheese-28",
+      "name": "גבינה צהובה 28% (ארוזה)",
+      "qty": 1.0
+    },
+    {
+      "id": "halloumi",
+      "name": "גבינת חלומי 24%",
+      "qty": 1.0
+    },
+    {
+      "id": "danone-strawberry",
+      "name": "דנונה תות 3%",
+      "qty": 2.0
+    },
+    {
+      "id": "milk-tnuva-3-carton",
+      "name": "חלב תנובה 3% קרטון 1 ל'",
+      "qty": 4.0
+    },
+    {
+      "id": "butter-tnuva-200",
+      "name": "חמאה תנובה 200 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "deli-mozzarella",
+      "name": "מוצרלה (מעדנייה)",
+      "qty": 0.17
+    },
+    {
+      "id": "mozzarella-baby",
+      "name": "מוצרלה בייבי",
+      "qty": 1.0
+    },
+    {
+      "id": "pudding-vanilla",
+      "name": "מעדן וניל 125 ג'",
+      "qty": 4.0
+    },
+    {
+      "id": "pudding-chocolate",
+      "name": "מעדן שוקולד 125 ג' (הגולן)",
+      "qty": 4.0
+    },
+    {
+      "id": "symphonia-200",
+      "name": "סימפוניה 200 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "symphonia-olives",
+      "name": "סימפוניה זיתים 5%",
+      "qty": 1.0
+    },
+    {
+      "id": "deli-emek-28",
+      "name": "עמק פרוס 28% (מעדנייה)",
+      "qty": 0.27
+    },
+    {
+      "id": "deli-tzfatit",
+      "name": "צפתית 5% (מעדנייה)",
+      "qty": 0.23
+    },
+    {
+      "id": "cottage-5",
+      "name": "קוטג' 5% 250 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "deli-kashkaval",
+      "name": "קשקבל (מעדנייה)",
+      "qty": 0.22
+    },
+    {
+      "id": "cooking-cream-15",
+      "name": "שמנת לבישול 15%",
+      "qty": 1.0
+    },
+    {
+      "id": "avocado",
+      "name": "אבוקדו",
+      "qty": 0.82
+    },
+    {
+      "id": "pineapple",
+      "name": "אננס",
+      "qty": 1.06
+    },
+    {
+      "id": "persimmon",
+      "name": "אפרסמון",
+      "qty": 0.79
+    },
+    {
+      "id": "banana",
+      "name": "בננות",
+      "qty": 1.09
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש",
+      "qty": 1.13
+    },
+    {
+      "id": "coriander",
+      "name": "כוסברה (צרור)",
+      "qty": 1.0
+    },
+    {
+      "id": "cauliflower",
+      "name": "כרובית",
+      "qty": 1.0
+    },
+    {
+      "id": "melon",
+      "name": "מלון",
+      "qty": 1.09
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפונים",
+      "qty": 1.21
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניות",
+      "qty": 0.91
+    },
+    {
+      "id": "grapes-white",
+      "name": "ענבים לבנים",
+      "qty": 1.19
+    },
+    {
+      "id": "hot-pepper",
+      "name": "פלפל חריף",
+      "qty": 0.21
+    },
+    {
+      "id": "garlic-peeled-170",
+      "name": "שום קלוף 170 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "corn-fresh",
+      "name": "תירס טרי",
+      "qty": 1.12
+    },
+    {
+      "id": "potato-red",
+      "name": "תפוחי אדמה אדומים",
+      "qty": 2.93
+    },
+    {
+      "id": "apples",
+      "name": "תפוחי עץ",
+      "qty": 2.42
+    },
+    {
+      "id": "rolls-10",
+      "name": "10 לחמניות בשקית",
+      "qty": 1.0
+    },
+    {
+      "id": "jachnun",
+      "name": "ג'חנון צנעני 900 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "tortilla-378",
+      "name": "טורטיה 378 ג' (אבא)",
+      "qty": 2.0
+    },
+    {
+      "id": "bread-angel-sliced",
+      "name": "לחם אחיד פרוס אנג'ל",
+      "qty": 1.0
+    },
+    {
+      "id": "pita-berman",
+      "name": "מארז פיתות ברמן",
+      "qty": 1.0
+    },
+    {
+      "id": "malawach-alpha",
+      "name": "מלוואח אלפא 700 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "pita-yemeni",
+      "name": "פיתה תימנית",
+      "qty": 1.0
+    },
+    {
+      "id": "crackers-onion",
+      "name": "קרקר בצל אסם 250 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "crackers-piquant",
+      "name": "קרקר פיקנטי 250 ג'",
+      "qty": 1.0
+    },
+    {
+      "id": "tirosh-red-1l",
+      "name": "מיץ ענבים תירוש אדום 1 ל'",
+      "qty": 1.0
+    },
+    {
+      "id": "orange-juice-2l",
+      "name": "מיץ תפוזים סחוט 2 ל'",
+      "qty": 1.0
+    },
+    {
+      "id": "coke-zero-1.5-6",
+      "name": "קוקה קולה זירו 1.5 ל' שישייה",
+      "qty": 2.0
+    },
+    {
+      "id": "coke-cans-6",
+      "name": "שישיית פחיות קוקה קולה",
+      "qty": 2.0
+    },
+    {
+      "id": "pizza-bites",
+      "name": "נשנושי פיצה מרגריטה",
+      "qty": 2.0
+    },
+    {
+      "id": "edamame",
+      "name": "פולי סויה אדממה 454 ג'",
+      "qty": 2.0
+    },
+    {
+      "id": "ravioli-cheese",
+      "name": "רביולי במילוי גבינה",
+      "qty": 2.0
+    },
+    {
+      "id": "rice-persian",
+      "name": "אורז פרסי 1 ק\"ג",
+      "qty": 1.0
+    },
+    {
+      "id": "rice-paper",
+      "name": "דפי אורז מרובעים",
+      "qty": 1.0
+    },
+    {
+      "id": "olive-rings-green",
+      "name": "טבעות זיתים ירוקים",
+      "qty": 2.0
+    },
+    {
+      "id": "tuna-starkist",
+      "name": "טונה סטארקיסט בשמן (רביעייה)",
+      "qty": 2.0
+    },
+    {
+      "id": "sauerkraut",
+      "name": "כרוב כבוש בית השיטה",
+      "qty": 1.0
+    },
+    {
+      "id": "chestnuts-roasted",
+      "name": "ערמונים שלמים קלויים",
+      "qty": 3.0
+    },
+    {
+      "id": "cornflakes-alufim",
+      "name": "קורנפלקס אלופים",
+      "qty": 2.0
+    },
+    {
+      "id": "dressing-1000-island",
+      "name": "רוטב אלף האיים",
+      "qty": 1.0
+    },
+    {
+      "id": "dressing-salad",
+      "name": "רוטב לסלט",
+      "qty": 1.0
+    },
+    {
+      "id": "tomato-paste",
+      "name": "רוטב עגבניות מרוכז (רסק)",
+      "qty": 4.0
+    },
+    {
+      "id": "chickpeas-can",
+      "name": "שימורי גרגירי חומוס (סוגת)",
+      "qty": 1.0
+    },
+    {
+      "id": "beans-white-can",
+      "name": "שימורי שעועית לבנה (סוגת)",
+      "qty": 1.0
+    },
+    {
+      "id": "canola-oil",
+      "name": "שמן קנולה מזוכך",
+      "qty": 2.0
+    },
+    {
+      "id": "corn-can-410",
+      "name": "תירס צעיר שלם 410 ג'",
+      "qty": 2.0
+    },
+    {
+      "id": "spice-tbul-fish",
+      "name": "T-BUL לדגים 90 גרם",
+      "qty": 1.0
+    },
+    {
+      "id": "oregano",
+      "name": "אורגנו",
+      "qty": 1.0
+    },
+    {
+      "id": "baharat",
+      "name": "בהרט לבישול 80 גרם",
+      "qty": 1.0
+    },
+    {
+      "id": "turmeric",
+      "name": "כורכום",
+      "qty": 2.0
+    },
+    {
+      "id": "cumin",
+      "name": "כמון טחון",
+      "qty": 2.0
+    },
+    {
+      "id": "pepper-white",
+      "name": "פלפל לבן טחון",
+      "qty": 1.0
+    },
+    {
+      "id": "pepper-black",
+      "name": "פלפל שחור טחון",
+      "qty": 2.0
+    },
+    {
+      "id": "paprika-sweet",
+      "name": "פפריקה מתוקה",
+      "qty": 2.0
+    },
+    {
+      "id": "garlic-granules",
+      "name": "שום גבישי",
+      "qty": 1.0
+    },
+    {
+      "id": "spice-grill-chicken",
+      "name": "תבלין גריל עוף 120 גרם",
+      "qty": 1.0
+    },
+    {
+      "id": "spice-garlic-bread",
+      "name": "תערובת לחם שום 100 גרם",
+      "qty": 1.0
+    },
+    {
+      "id": "spice-pargiyot",
+      "name": "תערובת תיבול לפרגיות",
+      "qty": 1.0
+    },
+    {
+      "id": "spice-ktzitzot",
+      "name": "תערובת תיבול לקציצות",
+      "qty": 1.0
+    }
+  ],
+  "matrix": {
+    "paper-cups": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "huggies-wipes": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000195537",
+        "name": "מגב.האגיס ללא בישום 4*56",
+        "price": 19.9,
+        "effective": 16.67,
+        "packs": 3.0,
+        "cost": 50.01,
+        "unit_price": 19.9,
+        "promo": "3ב50 מגבוני האגיס רפיל 56*4 יחידות-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "touch-towels-6": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "pads-40": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "finish-salt-2kg": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "8410104045111",
+        "name": "פיניש מלח למדיח 2 ק\"ג",
+        "price": 19.9,
+        "effective": 17.5,
+        "packs": 2.0,
+        "cost": 35.0,
+        "unit_price": 9.95,
+        "promo": "2ב35 פיניש מלח למדיח 2 ק\"ג-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pampers-premium": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "8700216891011",
+        "name": "פמפרס פרימיום מידה6 22יח",
+        "price": 37.9,
+        "effective": 36.67,
+        "packs": 3.0,
+        "cost": 110.01,
+        "unit_price": 37.9,
+        "promo": "3ב110 חיתולי פמפרס פרימיום -1מות-75ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "toothpicks": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "asado": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000928425",
+        "name": "אסאדו עם עצם/קשתית",
+        "price": 79.9,
+        "effective": 79.9,
+        "packs": 1.09,
+        "cost": 87.09,
+        "unit_price": 79.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "beef-ground": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290004257446",
+        "name": "טחון בקר קהילות 100% 1 ק",
+        "price": 49.9,
+        "effective": 49.9,
+        "packs": 2.5,
+        "cost": 124.75,
+        "unit_price": null,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "salmon-portions": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000939995",
+        "name": "פילה סלמון קפוא",
+        "price": 79.9,
+        "effective": 69.9,
+        "packs": 0.7,
+        "cost": 48.93,
+        "unit_price": 79.9,
+        "promo": "ב. 69.90 פילה סלמון קפוא במשקל-ישיר",
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "hotdogs-yechiam": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014046474",
+        "name": "נקניקיות עוף 1.5 ק\"ג",
+        "price": 34.9,
+        "effective": 28.0,
+        "packs": 1.0,
+        "cost": 28.0,
+        "unit_price": 23.266666666666666,
+        "promo": "28 נקניקיות עוף 1.4-1.5 ק\"ג-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pastrami-hermon": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "pargiyot": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290002069072",
+        "name": "פרגיות עוף טרי ארוז פליי",
+        "price": 64.9,
+        "effective": 64.9,
+        "packs": 0.44,
+        "cost": 28.56,
+        "unit_price": 64.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "kabanos-garlic": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "kabanos-135": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290012227912",
+        "name": "קבנוס מעודן 135 גרם",
+        "price": 12.9,
+        "effective": 12.9,
+        "packs": 1.0,
+        "cost": 12.9,
+        "unit_price": 95.55555555555556,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "chicken-cocktail": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "roastbeef": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290009391343",
+        "name": "רוסטביף מוכשר טרי",
+        "price": 99.9,
+        "effective": 99.9,
+        "packs": 0.28,
+        "cost": 27.97,
+        "unit_price": 99.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "apropo-50": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000066332",
+        "name": "אפרופו 50 גרם",
+        "price": 5.5,
+        "effective": 5.5,
+        "packs": 3.0,
+        "cost": 16.5,
+        "unit_price": 110.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "bisli-bbq-70": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290115201680",
+        "name": "ביסלי ברביקיו 70 גרם",
+        "price": 4.9,
+        "effective": 4.9,
+        "packs": 3.0,
+        "cost": 14.7,
+        "unit_price": 70.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "bisli-pizza-70": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000066172",
+        "name": "ביסלי פיצה 70 גרם",
+        "price": 4.9,
+        "effective": 4.9,
+        "packs": 3.0,
+        "cost": 14.7,
+        "unit_price": 70.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "bamba-10pack": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290105693341",
+        "name": "במבה 10*25 גרם",
+        "price": 17.9,
+        "effective": 14.9,
+        "packs": 2.0,
+        "cost": 29.8,
+        "unit_price": 71.6,
+        "promo": "14.90 במבה 25*10 גרם-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "milka-milk": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "gum-mint": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "4009900403023",
+        "name": "מסטיק אורביט ויט מנטה64ג",
+        "price": 11.9,
+        "effective": 10.0,
+        "packs": 4.0,
+        "cost": 40.0,
+        "unit_price": 185.9375,
+        "promo": "2ב20 מסטיק אורביט/איירוייבז בקבוקון-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "cheetos-crunch-cheese": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290115670899",
+        "name": "ציטוס קראנצ בטעם גבינה",
+        "price": 4.3,
+        "effective": 4.3,
+        "packs": 3.0,
+        "cost": 12.9,
+        "unit_price": 61.42857142857142,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "actimel": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290119380923",
+        "name": "אקטימל לבן מארז 16*108גר",
+        "price": 34.9,
+        "effective": 34.9,
+        "packs": 1.0,
+        "cost": 34.9,
+        "unit_price": 20.19675925925926,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "eggs-12": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290001201589",
+        "name": "12 ביצי משק טריות L לסר",
+        "price": 14.54,
+        "effective": 14.54,
+        "packs": 1.0,
+        "cost": 14.54,
+        "unit_price": 14.54,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "cream-cheese-5-250": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290002824640",
+        "name": "גב.סקי5%לבנה מעודנת250ג",
+        "price": 5.87,
+        "effective": 5.87,
+        "packs": 2.0,
+        "cost": 11.74,
+        "unit_price": 23.48,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "cheese-triangles-naama": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000045580",
+        "name": "גב.נעמה חורש מותכת 240ג",
+        "price": 22.3,
+        "effective": 22.3,
+        "packs": 1.0,
+        "cost": 22.3,
+        "unit_price": 92.91666666666667,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "yellow-cheese-28": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014761698",
+        "name": "גב.צהובה סמי28% בד\"צ600ג",
+        "price": 38.9,
+        "effective": 38.9,
+        "packs": 1.0,
+        "cost": 38.9,
+        "unit_price": 64.83333333333333,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "halloumi": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290011499365",
+        "name": "גבינת חלומי 24% 200ג גד",
+        "price": 26.9,
+        "effective": 22.9,
+        "packs": 1.0,
+        "cost": 22.9,
+        "unit_price": 134.49999999999997,
+        "promo": "22.90 גבינת חלומי 24% 200ג גד-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "danone-strawberry": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290006664532",
+        "name": "דנונה תות 3% 150 גרם",
+        "price": 4.5,
+        "effective": 4.5,
+        "packs": 2.0,
+        "cost": 9.0,
+        "unit_price": 30.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "milk-tnuva-3-carton": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290004131074",
+        "name": "חלב בקרטון 3% שומן 1 ל",
+        "price": 7.35,
+        "effective": 7.35,
+        "packs": 4.0,
+        "cost": 29.4,
+        "unit_price": 7.35,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "butter-tnuva-200": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290116932033",
+        "name": "חמאה מהדרין 200ג תנובה",
+        "price": 9.9,
+        "effective": 9.9,
+        "packs": 1.0,
+        "cost": 9.9,
+        "unit_price": 49.5,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "deli-mozzarella": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290009150186",
+        "name": "גבינת מוצרלה 21% במשקל",
+        "price": 69.0,
+        "effective": 69.0,
+        "packs": 0.17,
+        "cost": 11.73,
+        "unit_price": 69.0,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "mozzarella-baby": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290006492432",
+        "name": "מוצרלה בייבי 150ג גד",
+        "price": 17.9,
+        "effective": 17.9,
+        "packs": 1.0,
+        "cost": 17.9,
+        "unit_price": 119.33333333333331,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pudding-vanilla": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290110557133",
+        "name": "מעדן הגולן וניל 125 גרם",
+        "price": 3.5,
+        "effective": 3.5,
+        "packs": 4.0,
+        "cost": 14.0,
+        "unit_price": 28.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pudding-chocolate": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290115678376",
+        "name": "מעדן הגולן שוקולד 125 גר",
+        "price": 3.5,
+        "effective": 3.5,
+        "packs": 4.0,
+        "cost": 14.0,
+        "unit_price": 28.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "symphonia-200": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290110573058",
+        "name": "סימפוניה 5% עירית 200 גר",
+        "price": 11.0,
+        "effective": 11.0,
+        "packs": 1.0,
+        "cost": 11.0,
+        "unit_price": 55.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "symphonia-olives": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290005839108",
+        "name": "גב.סימפוניה 5%+זיתים200ג",
+        "price": 11.0,
+        "effective": 11.0,
+        "packs": 1.0,
+        "cost": 11.0,
+        "unit_price": 55.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "deli-emek-28": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000055350",
+        "name": "גבינת עמק 28% חריץ במשקל",
+        "price": 52.85,
+        "effective": 52.85,
+        "packs": 0.27,
+        "cost": 14.27,
+        "unit_price": 52.85,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "deli-tzfatit": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290004861056",
+        "name": "גבינה צפתית 5% במשקל",
+        "price": 70.0,
+        "effective": 70.0,
+        "packs": 0.23,
+        "cost": 16.1,
+        "unit_price": 70.0,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "cottage-5": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290004127329",
+        "name": "קוטג 5% 250 גרם בעלז",
+        "price": 6.1,
+        "effective": 6.1,
+        "packs": 1.0,
+        "cost": 6.1,
+        "unit_price": 24.4,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "deli-kashkaval": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "8695543009126",
+        "name": "גבינת קשקבל 25% שומן225ג",
+        "price": 24.9,
+        "effective": 24.9,
+        "packs": 1,
+        "cost": 24.9,
+        "unit_price": 110.66666666666666,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "cooking-cream-15": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290004125721",
+        "name": "שמנת בישול15%-שף לבן250מ",
+        "price": 9.9,
+        "effective": 9.9,
+        "packs": 1.0,
+        "cost": 9.9,
+        "unit_price": null,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "avocado": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7296073754763",
+        "name": "אבוקדו ארוז ברשת",
+        "price": 9.9,
+        "effective": 9.9,
+        "packs": 0.82,
+        "cost": 8.12,
+        "unit_price": 9.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "pineapple": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "persimmon": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000964096",
+        "name": "אפרסמון קרמבו",
+        "price": 17.9,
+        "effective": 17.9,
+        "packs": 0.79,
+        "cost": 14.14,
+        "unit_price": 17.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "banana": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000964775",
+        "name": "בננה",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.09,
+        "cost": 12.97,
+        "unit_price": 11.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "onion": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000000480",
+        "name": "בצל יבש",
+        "price": 5.9,
+        "effective": 5.9,
+        "packs": 1.13,
+        "cost": 6.67,
+        "unit_price": 5.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "coriander": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000986142",
+        "name": "כוסברה תפזורת (ק)",
+        "price": 4.9,
+        "effective": 4.9,
+        "packs": 1.0,
+        "cost": 4.9,
+        "unit_price": 4.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "cauliflower": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000000176",
+        "name": "כרובית",
+        "price": 14.9,
+        "effective": 14.9,
+        "packs": 1.0,
+        "cost": 14.9,
+        "unit_price": 14.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "melon": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000992839",
+        "name": "מלון גולדן סוויט",
+        "price": 7.9,
+        "effective": 7.9,
+        "packs": 1.09,
+        "cost": 8.61,
+        "unit_price": 7.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "cucumber": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000000046",
+        "name": "מלפפון",
+        "price": 8.9,
+        "effective": 8.9,
+        "packs": 1.21,
+        "cost": 10.77,
+        "unit_price": 8.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "tomato": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000000022",
+        "name": "עגבניה",
+        "price": 8.9,
+        "effective": 8.9,
+        "packs": 0.91,
+        "cost": 8.1,
+        "unit_price": 8.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "grapes-white": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7296073730156",
+        "name": "ענבים ירוקים",
+        "price": 24.9,
+        "effective": 24.9,
+        "packs": 1.19,
+        "cost": 29.63,
+        "unit_price": 24.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "hot-pepper": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000000619",
+        "name": "פלפל חריף",
+        "price": 12.9,
+        "effective": 12.9,
+        "packs": 0.21,
+        "cost": 2.71,
+        "unit_price": 12.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "garlic-peeled-170": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "corn-fresh": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "potato-red": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290005610127",
+        "name": "תפוח אדמה גורמה לבן",
+        "price": 9.9,
+        "effective": 9.9,
+        "packs": 2.93,
+        "cost": 29.01,
+        "unit_price": 9.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "apples": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290000963082",
+        "name": "תפוח עץ מוזהב 70",
+        "price": 14.9,
+        "effective": 14.9,
+        "packs": 2.42,
+        "cost": 36.06,
+        "unit_price": 14.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "rolls-10": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "jachnun": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290002512011",
+        "name": "גחנון צנעני 900 גרם",
+        "price": 19.9,
+        "effective": 19.9,
+        "packs": 1.0,
+        "cost": 19.9,
+        "unit_price": 22.11111111111111,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "tortilla-378": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "bread-angel-sliced": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290018500361",
+        "name": "לחם אחיד פרוס 900 גרם",
+        "price": 10.05,
+        "effective": 10.05,
+        "packs": 1.0,
+        "cost": 10.05,
+        "unit_price": 11.166666666666666,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pita-berman": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290004033057",
+        "name": "פיתות עננים רכות 8יח*115",
+        "price": 15.9,
+        "effective": 15.9,
+        "packs": 1.0,
+        "cost": 15.9,
+        "unit_price": 17.282608695652172,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "malawach-alpha": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "pita-yemeni": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "crackers-onion": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "crackers-piquant": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "tirosh-red-1l": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290017812571",
+        "name": "מיץ ענבים תירוש אדום 1 ל",
+        "price": 19.9,
+        "effective": 19.9,
+        "packs": 1.0,
+        "cost": 19.9,
+        "unit_price": 19.9,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "orange-juice-2l": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290110114893",
+        "name": "מיץ תפוזים סחוט טבעי 2 ל",
+        "price": 31.9,
+        "effective": 31.9,
+        "packs": 1.0,
+        "cost": 31.9,
+        "unit_price": 15.95,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "coke-zero-1.5-6": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290110115418",
+        "name": "קוקה קולה זירו 6*1.5 ל",
+        "price": 47.9,
+        "effective": 47.9,
+        "packs": 2.0,
+        "cost": 95.8,
+        "unit_price": 5.322222222222222,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "coke-cans-6": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290011018917",
+        "name": "קוקה קולה זירו 330*6 מ\"ל",
+        "price": 24.9,
+        "effective": 19.0,
+        "packs": 2.0,
+        "cost": 38.0,
+        "unit_price": 12.575757575757574,
+        "promo": "2ב34.40 פקדון פחיות קוקה קולה/זירו-/ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pizza-bites": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "edamame": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "ravioli-cheese": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290003989539",
+        "name": "רביולי עם גבינה 400 גרם",
+        "price": 19.9,
+        "effective": 18.0,
+        "packs": 2.0,
+        "cost": 36.0,
+        "unit_price": 49.74999999999999,
+        "promo": "2ב36 פסטה מצוננת שטראוס 400 גרם-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "rice-persian": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290013200389",
+        "name": "אורז פרסי 1 ק\"ג",
+        "price": 10.9,
+        "effective": 10.9,
+        "packs": 1,
+        "cost": 10.9,
+        "unit_price": 10.9,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "rice-paper": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "olive-rings-green": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290002317579",
+        "name": "טבעות זיתים ירוקים 560 ג",
+        "price": 14.9,
+        "effective": 14.9,
+        "packs": 2.0,
+        "cost": 29.8,
+        "unit_price": 26.607142857142858,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "tuna-starkist": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290005287206",
+        "name": "טונה סטארקיסט בשמן4*160ג",
+        "price": 25.9,
+        "effective": 25.9,
+        "packs": 2.0,
+        "cost": 51.8,
+        "unit_price": 40.46875,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "sauerkraut": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290113192577",
+        "name": "כרוב כבוש בית השיטה 560",
+        "price": 10.9,
+        "effective": 10.9,
+        "packs": 1.0,
+        "cost": 10.9,
+        "unit_price": 19.464285714285715,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "chestnuts-roasted": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "cornflakes-alufim": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290112494351",
+        "name": "קורנפלקס אלופים בדץ 850ג",
+        "price": 19.9,
+        "effective": 19.9,
+        "packs": 2.0,
+        "cost": 39.8,
+        "unit_price": 23.41176470588235,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "dressing-1000-island": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290112964410",
+        "name": "רוטב אלף האיים 290 מ\"ל",
+        "price": 15.5,
+        "effective": 15.5,
+        "packs": 1.0,
+        "cost": 15.5,
+        "unit_price": 53.44827586206897,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "dressing-salad": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "tomato-paste": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290002019794",
+        "name": "רוטב עגבניות פריניר100גר",
+        "price": 2.9,
+        "effective": 2.9,
+        "packs": 4.0,
+        "cost": 11.6,
+        "unit_price": 28.999999999999996,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "chickpeas-can": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290100704974",
+        "name": "שימורי חומוס 400ג סוגת",
+        "price": 7.9,
+        "effective": 7.9,
+        "packs": 1.0,
+        "cost": 7.9,
+        "unit_price": 19.75,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "beans-white-can": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "canola-oil": {
+      "shufersal-online": null,
+      "victory-netivot": null
+    },
+    "corn-can-410": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290003578177",
+        "name": "תירס גמדי שלם410 ויליפוד",
+        "price": 8.5,
+        "effective": 8.0,
+        "packs": 2.0,
+        "cost": 16.0,
+        "unit_price": 20.731707317073173,
+        "promo": "2ב16 תירס גמדי שלם410 ויליפוד-ישיר",
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "spice-tbul-fish": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014217010",
+        "name": "תערובת  לדגים במיכל90ג",
+        "price": 13.9,
+        "effective": 13.9,
+        "packs": 1.0,
+        "cost": 13.9,
+        "unit_price": 154.44444444444443,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "oregano": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014217065",
+        "name": "אורגנו במיכל 30 גרם",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 396.6666666666667,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "baharat": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290015324557",
+        "name": "בהרט לבישול מיכל גדול80ג",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 148.75,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "turmeric": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7296073215820",
+        "name": "כורכום טחון בשקית 100גרם",
+        "price": 7.9,
+        "effective": 7.9,
+        "packs": 2,
+        "cost": 15.8,
+        "unit_price": 79.0,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "cumin": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290015324090",
+        "name": "כמון בשקית 80 גרם",
+        "price": 6.9,
+        "effective": 6.9,
+        "packs": 3,
+        "cost": 20.7,
+        "unit_price": 86.25000000000001,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "pepper-white": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290002517825",
+        "name": "פלפל לבן טחון 40 גרם",
+        "price": 10.0,
+        "effective": 10.0,
+        "packs": 1.0,
+        "cost": 10.0,
+        "unit_price": 250.0,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "pepper-black": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7296073754381",
+        "name": "פלפל שחור טחון במיכל 160",
+        "price": 16.9,
+        "effective": 12.5,
+        "packs": 2,
+        "cost": 25.0,
+        "unit_price": 105.625,
+        "promo": "2ב25 פלפל שחור טחון/גרוס במיכל -160ישיר",
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "paprika-sweet": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7296073216223",
+        "name": "פפריקה מתוקה בשקית80גרם",
+        "price": 5.9,
+        "effective": 5.9,
+        "packs": 3,
+        "cost": 17.7,
+        "unit_price": 73.75000000000001,
+        "promo": null,
+        "exact": false
+      },
+      "victory-netivot": null
+    },
+    "garlic-granules": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290011964344",
+        "name": "שום גבישי 120 גרם",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 99.16666666666667,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "spice-grill-chicken": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014217225",
+        "name": "גריל עוף במיכל 120 גרם",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 99.16666666666667,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "spice-garlic-bread": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014217522",
+        "name": "תערובת לחם שום 100 גרם",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 119.00000000000001,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "spice-pargiyot": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014217263",
+        "name": "תערובת תיבול לפרגיות100ג",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 119.00000000000001,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    },
+    "spice-ktzitzot": {
+      "shufersal-online": {
+        "store_key": "shufersal-online",
+        "item_code": "7290014217362",
+        "name": "תיבול לקציצות 100 גרם",
+        "price": 11.9,
+        "effective": 11.9,
+        "packs": 1.0,
+        "cost": 11.9,
+        "unit_price": 119.00000000000001,
+        "promo": null,
+        "exact": true
+      },
+      "victory-netivot": null
+    }
+  },
+  "singles": [
+    {
+      "store": "shufersal-online",
+      "name": "שופרסל ONLINE",
+      "subtotal": 1860.94,
+      "fee": 29.9,
+      "total": 1890.84,
+      "missing": [
+        "paper-cups",
+        "touch-towels-6",
+        "pads-40",
+        "toothpicks",
+        "pastrami-hermon",
+        "kabanos-garlic",
+        "chicken-cocktail",
+        "milka-milk",
+        "pineapple",
+        "garlic-peeled-170",
+        "corn-fresh",
+        "rolls-10",
+        "tortilla-378",
+        "malawach-alpha",
+        "pita-yemeni",
+        "crackers-onion",
+        "crackers-piquant",
+        "pizza-bites",
+        "edamame",
+        "rice-paper",
+        "chestnuts-roasted",
+        "dressing-salad",
+        "beans-white-can",
+        "canola-oil"
+      ],
+      "coverage": 0.767,
+      "estimated_full": 1890.84
+    },
+    {
+      "store": "victory-netivot",
+      "name": "ויקטורי נתיבות (חנות פיזית)",
+      "subtotal": 0,
+      "fee": 0.0,
+      "total": 0.0,
+      "missing": [
+        "paper-cups",
+        "huggies-wipes",
+        "touch-towels-6",
+        "pads-40",
+        "finish-salt-2kg",
+        "pampers-premium",
+        "toothpicks",
+        "asado",
+        "beef-ground",
+        "salmon-portions",
+        "hotdogs-yechiam",
+        "pastrami-hermon",
+        "pargiyot",
+        "kabanos-garlic",
+        "kabanos-135",
+        "chicken-cocktail",
+        "roastbeef",
+        "apropo-50",
+        "bisli-bbq-70",
+        "bisli-pizza-70",
+        "bamba-10pack",
+        "milka-milk",
+        "gum-mint",
+        "cheetos-crunch-cheese",
+        "actimel",
+        "eggs-12",
+        "cream-cheese-5-250",
+        "cheese-triangles-naama",
+        "yellow-cheese-28",
+        "halloumi",
+        "danone-strawberry",
+        "milk-tnuva-3-carton",
+        "butter-tnuva-200",
+        "deli-mozzarella",
+        "mozzarella-baby",
+        "pudding-vanilla",
+        "pudding-chocolate",
+        "symphonia-200",
+        "symphonia-olives",
+        "deli-emek-28",
+        "deli-tzfatit",
+        "cottage-5",
+        "deli-kashkaval",
+        "cooking-cream-15",
+        "avocado",
+        "pineapple",
+        "persimmon",
+        "banana",
+        "onion",
+        "coriander",
+        "cauliflower",
+        "melon",
+        "cucumber",
+        "tomato",
+        "grapes-white",
+        "hot-pepper",
+        "garlic-peeled-170",
+        "corn-fresh",
+        "potato-red",
+        "apples",
+        "rolls-10",
+        "jachnun",
+        "tortilla-378",
+        "bread-angel-sliced",
+        "pita-berman",
+        "malawach-alpha",
+        "pita-yemeni",
+        "crackers-onion",
+        "crackers-piquant",
+        "tirosh-red-1l",
+        "orange-juice-2l",
+        "coke-zero-1.5-6",
+        "coke-cans-6",
+        "pizza-bites",
+        "edamame",
+        "ravioli-cheese",
+        "rice-persian",
+        "rice-paper",
+        "olive-rings-green",
+        "tuna-starkist",
+        "sauerkraut",
+        "chestnuts-roasted",
+        "cornflakes-alufim",
+        "dressing-1000-island",
+        "dressing-salad",
+        "tomato-paste",
+        "chickpeas-can",
+        "beans-white-can",
+        "canola-oil",
+        "corn-can-410",
+        "spice-tbul-fish",
+        "oregano",
+        "baharat",
+        "turmeric",
+        "cumin",
+        "pepper-white",
+        "pepper-black",
+        "paprika-sweet",
+        "garlic-granules",
+        "spice-grill-chicken",
+        "spice-garlic-bread",
+        "spice-pargiyot",
+        "spice-ktzitzot"
+      ],
+      "coverage": 0.0,
+      "estimated_full": 1860.94
+    }
+  ],
+  "pairs": [
+    {
+      "stores": [
+        "shufersal-online",
+        "victory-netivot"
+      ],
+      "subtotals": {
+        "shufersal-online": 1860.94,
+        "victory-netivot": 0.0
+      },
+      "fees": 29.9,
+      "total": 1890.84,
+      "missing": [
+        "paper-cups",
+        "touch-towels-6",
+        "pads-40",
+        "toothpicks",
+        "pastrami-hermon",
+        "kabanos-garlic",
+        "chicken-cocktail",
+        "milka-milk",
+        "pineapple",
+        "garlic-peeled-170",
+        "corn-fresh",
+        "rolls-10",
+        "tortilla-378",
+        "malawach-alpha",
+        "pita-yemeni",
+        "crackers-onion",
+        "crackers-piquant",
+        "pizza-bites",
+        "edamame",
+        "rice-paper",
+        "chestnuts-roasted",
+        "dressing-salad",
+        "beans-white-can",
+        "canola-oil"
+      ],
+      "coverage": 0.767,
+      "estimated_full": 1890.84,
+      "assign": {
+        "huggies-wipes": "shufersal-online",
+        "finish-salt-2kg": "shufersal-online",
+        "pampers-premium": "shufersal-online",
+        "asado": "shufersal-online",
+        "beef-ground": "shufersal-online",
+        "salmon-portions": "shufersal-online",
+        "hotdogs-yechiam": "shufersal-online",
+        "pargiyot": "shufersal-online",
+        "kabanos-135": "shufersal-online",
+        "roastbeef": "shufersal-online",
+        "apropo-50": "shufersal-online",
+        "bisli-bbq-70": "shufersal-online",
+        "bisli-pizza-70": "shufersal-online",
+        "bamba-10pack": "shufersal-online",
+        "gum-mint": "shufersal-online",
+        "cheetos-crunch-cheese": "shufersal-online",
+        "actimel": "shufersal-online",
+        "eggs-12": "shufersal-online",
+        "cream-cheese-5-250": "shufersal-online",
+        "cheese-triangles-naama": "shufersal-online",
+        "yellow-cheese-28": "shufersal-online",
+        "halloumi": "shufersal-online",
+        "danone-strawberry": "shufersal-online",
+        "milk-tnuva-3-carton": "shufersal-online",
+        "butter-tnuva-200": "shufersal-online",
+        "deli-mozzarella": "shufersal-online",
+        "mozzarella-baby": "shufersal-online",
+        "pudding-vanilla": "shufersal-online",
+        "pudding-chocolate": "shufersal-online",
+        "symphonia-200": "shufersal-online",
+        "symphonia-olives": "shufersal-online",
+        "deli-emek-28": "shufersal-online",
+        "deli-tzfatit": "shufersal-online",
+        "cottage-5": "shufersal-online",
+        "deli-kashkaval": "shufersal-online",
+        "cooking-cream-15": "shufersal-online",
+        "avocado": "shufersal-online",
+        "persimmon": "shufersal-online",
+        "banana": "shufersal-online",
+        "onion": "shufersal-online",
+        "coriander": "shufersal-online",
+        "cauliflower": "shufersal-online",
+        "melon": "shufersal-online",
+        "cucumber": "shufersal-online",
+        "tomato": "shufersal-online",
+        "grapes-white": "shufersal-online",
+        "hot-pepper": "shufersal-online",
+        "potato-red": "shufersal-online",
+        "apples": "shufersal-online",
+        "jachnun": "shufersal-online",
+        "bread-angel-sliced": "shufersal-online",
+        "pita-berman": "shufersal-online",
+        "tirosh-red-1l": "shufersal-online",
+        "orange-juice-2l": "shufersal-online",
+        "coke-zero-1.5-6": "shufersal-online",
+        "coke-cans-6": "shufersal-online",
+        "ravioli-cheese": "shufersal-online",
+        "rice-persian": "shufersal-online",
+        "olive-rings-green": "shufersal-online",
+        "tuna-starkist": "shufersal-online",
+        "sauerkraut": "shufersal-online",
+        "cornflakes-alufim": "shufersal-online",
+        "dressing-1000-island": "shufersal-online",
+        "tomato-paste": "shufersal-online",
+        "chickpeas-can": "shufersal-online",
+        "corn-can-410": "shufersal-online",
+        "spice-tbul-fish": "shufersal-online",
+        "oregano": "shufersal-online",
+        "baharat": "shufersal-online",
+        "turmeric": "shufersal-online",
+        "cumin": "shufersal-online",
+        "pepper-white": "shufersal-online",
+        "pepper-black": "shufersal-online",
+        "paprika-sweet": "shufersal-online",
+        "garlic-granules": "shufersal-online",
+        "spice-grill-chicken": "shufersal-online",
+        "spice-garlic-bread": "shufersal-online",
+        "spice-pargiyot": "shufersal-online",
+        "spice-ktzitzot": "shufersal-online"
+      }
+    }
+  ],
+  "best_single": {
+    "store": "shufersal-online",
+    "name": "שופרסל ONLINE",
+    "subtotal": 1860.94,
+    "fee": 29.9,
+    "total": 1890.84,
+    "missing": [
+      "paper-cups",
+      "touch-towels-6",
+      "pads-40",
+      "toothpicks",
+      "pastrami-hermon",
+      "kabanos-garlic",
+      "chicken-cocktail",
+      "milka-milk",
+      "pineapple",
+      "garlic-peeled-170",
+      "corn-fresh",
+      "rolls-10",
+      "tortilla-378",
+      "malawach-alpha",
+      "pita-yemeni",
+      "crackers-onion",
+      "crackers-piquant",
+      "pizza-bites",
+      "edamame",
+      "rice-paper",
+      "chestnuts-roasted",
+      "dressing-salad",
+      "beans-white-can",
+      "canola-oil"
+    ],
+    "coverage": 0.767,
+    "estimated_full": 1890.84
+  },
+  "best_pair": {
+    "stores": [
+      "shufersal-online",
+      "victory-netivot"
+    ],
+    "subtotals": {
+      "shufersal-online": 1860.94,
+      "victory-netivot": 0.0
+    },
+    "fees": 29.9,
+    "total": 1890.84,
+    "missing": [
+      "paper-cups",
+      "touch-towels-6",
+      "pads-40",
+      "toothpicks",
+      "pastrami-hermon",
+      "kabanos-garlic",
+      "chicken-cocktail",
+      "milka-milk",
+      "pineapple",
+      "garlic-peeled-170",
+      "corn-fresh",
+      "rolls-10",
+      "tortilla-378",
+      "malawach-alpha",
+      "pita-yemeni",
+      "crackers-onion",
+      "crackers-piquant",
+      "pizza-bites",
+      "edamame",
+      "rice-paper",
+      "chestnuts-roasted",
+      "dressing-salad",
+      "beans-white-can",
+      "canola-oil"
+    ],
+    "coverage": 0.767,
+    "estimated_full": 1890.84,
+    "assign": {
+      "huggies-wipes": "shufersal-online",
+      "finish-salt-2kg": "shufersal-online",
+      "pampers-premium": "shufersal-online",
+      "asado": "shufersal-online",
+      "beef-ground": "shufersal-online",
+      "salmon-portions": "shufersal-online",
+      "hotdogs-yechiam": "shufersal-online",
+      "pargiyot": "shufersal-online",
+      "kabanos-135": "shufersal-online",
+      "roastbeef": "shufersal-online",
+      "apropo-50": "shufersal-online",
+      "bisli-bbq-70": "shufersal-online",
+      "bisli-pizza-70": "shufersal-online",
+      "bamba-10pack": "shufersal-online",
+      "gum-mint": "shufersal-online",
+      "cheetos-crunch-cheese": "shufersal-online",
+      "actimel": "shufersal-online",
+      "eggs-12": "shufersal-online",
+      "cream-cheese-5-250": "shufersal-online",
+      "cheese-triangles-naama": "shufersal-online",
+      "yellow-cheese-28": "shufersal-online",
+      "halloumi": "shufersal-online",
+      "danone-strawberry": "shufersal-online",
+      "milk-tnuva-3-carton": "shufersal-online",
+      "butter-tnuva-200": "shufersal-online",
+      "deli-mozzarella": "shufersal-online",
+      "mozzarella-baby": "shufersal-online",
+      "pudding-vanilla": "shufersal-online",
+      "pudding-chocolate": "shufersal-online",
+      "symphonia-200": "shufersal-online",
+      "symphonia-olives": "shufersal-online",
+      "deli-emek-28": "shufersal-online",
+      "deli-tzfatit": "shufersal-online",
+      "cottage-5": "shufersal-online",
+      "deli-kashkaval": "shufersal-online",
+      "cooking-cream-15": "shufersal-online",
+      "avocado": "shufersal-online",
+      "persimmon": "shufersal-online",
+      "banana": "shufersal-online",
+      "onion": "shufersal-online",
+      "coriander": "shufersal-online",
+      "cauliflower": "shufersal-online",
+      "melon": "shufersal-online",
+      "cucumber": "shufersal-online",
+      "tomato": "shufersal-online",
+      "grapes-white": "shufersal-online",
+      "hot-pepper": "shufersal-online",
+      "potato-red": "shufersal-online",
+      "apples": "shufersal-online",
+      "jachnun": "shufersal-online",
+      "bread-angel-sliced": "shufersal-online",
+      "pita-berman": "shufersal-online",
+      "tirosh-red-1l": "shufersal-online",
+      "orange-juice-2l": "shufersal-online",
+      "coke-zero-1.5-6": "shufersal-online",
+      "coke-cans-6": "shufersal-online",
+      "ravioli-cheese": "shufersal-online",
+      "rice-persian": "shufersal-online",
+      "olive-rings-green": "shufersal-online",
+      "tuna-starkist": "shufersal-online",
+      "sauerkraut": "shufersal-online",
+      "cornflakes-alufim": "shufersal-online",
+      "dressing-1000-island": "shufersal-online",
+      "tomato-paste": "shufersal-online",
+      "chickpeas-can": "shufersal-online",
+      "corn-can-410": "shufersal-online",
+      "spice-tbul-fish": "shufersal-online",
+      "oregano": "shufersal-online",
+      "baharat": "shufersal-online",
+      "turmeric": "shufersal-online",
+      "cumin": "shufersal-online",
+      "pepper-white": "shufersal-online",
+      "pepper-black": "shufersal-online",
+      "paprika-sweet": "shufersal-online",
+      "garlic-granules": "shufersal-online",
+      "spice-grill-chicken": "shufersal-online",
+      "spice-garlic-bread": "shufersal-online",
+      "spice-pargiyot": "shufersal-online",
+      "spice-ktzitzot": "shufersal-online"
+    }
+  },
+  "recommend": "single",
+  "price_age": {
+    "shufersal-online": "2026-11-17T22:29:29",
+    "victory-netivot": null
+  }
+}

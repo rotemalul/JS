@@ -109,7 +109,7 @@ def optimize(products: list[dict] | None = None, on: date | None = None, store_k
     min_cov = cfg.get("min_coverage", 0.8)
     split_gain = cfg.get("split_min_saving", 25)
     # stores that can't supply most of the basket go to the bottom
-    singles.sort(key=lambda x: (x["coverage"] < min_cov, x["estimated_full"]))
+    singles.sort(key=lambda x: (x["coverage"] < min_cov, x["estimated_full"] if x["coverage"] >= min_cov else -x["coverage"]))
     pairs = []
     for a, b in itertools.combinations(stores, 2):
         assign, sub = {}, {a["key"]: 0.0, b["key"]: 0.0}
@@ -130,7 +130,7 @@ def optimize(products: list[dict] | None = None, on: date | None = None, store_k
             "coverage": round(1 - len(missing) / max(len(products), 1), 3),
             "estimated_full": round(total + sum(ref[i] for i in missing), 2), "assign": assign,
         })
-    pairs.sort(key=lambda x: (x["coverage"] < min_cov, x["estimated_full"]))
+    pairs.sort(key=lambda x: (x["coverage"] < min_cov, x["estimated_full"] if x["coverage"] >= min_cov else -x["coverage"]))
 
     best_single = next((s for s in singles if s["coverage"] >= min_cov), singles[0] if singles else None)
     best_pair = next((p for p in pairs if p["coverage"] >= min_cov), pairs[0] if pairs else None)

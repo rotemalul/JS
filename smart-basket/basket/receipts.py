@@ -15,6 +15,9 @@ data/receipts/<date>_<store>.json in the schema below -> `python -m basket recei
   ]
 }
 For weighted produce use "qty" = kg (e.g. 1.235) and "unit_price" = price per kg.
+"barcode" may be a store-internal code (produce/deli, < 8 digits): it is kept on the receipt but
+never used as a cross-store barcode. Lines with "skip": true (bags, deposits, donations) are not products.
+Receipt-level "extra_discounts": [{"label", "amount"}] for promos not attributable to one line.
 """
 from __future__ import annotations
 
@@ -38,29 +41,39 @@ def import_receipt(path: Path, cat: dict) -> dict:
     if not r:
         raise ValueError(f"cannot read {path}")
     rid = r.get("id") or path.stem
-    report = {"receipt": rid, "matched": 0, "new": [], "lines": len(r.get("lines", [])), "sum_lines": 0.0}
+    report = {"receipt": rid, "matched": 0, "new": [], "skipped": 0, "lines": len(r.get("lines", [])), "sum_lines": 0.0}
     index = catalog.by_id(cat)
+    bought: dict[str, dict] = {}  # product id -> aggregated purchase on this receipt
     for ln in r.get("lines", []):
+        report["sum_lines"] += float(ln.get("total") or 0) - float(ln.get("discount") or 0)
         raw = (ln.get("raw_name") or "").strip()
-        if not raw:
+        if not raw or ln.get("skip"):
+            report["skipped"] += 1
             continue
-        p = index.get(ln.get("product_id") or "") or catalog.find(cat, barcode=ln.get("barcode"), name=raw)
+        code = ln.get("barcode") if catalog.is_real_barcode(ln.get("barcode")) else None
+        p = index.get(ln.get("product_id") or "") or catalog.find(cat, barcode=code, name=raw)
         if p is None:
-            p = catalog.new_product(cat, raw, barcode=ln.get("barcode"))
+            p = catalog.new_product(cat, raw, barcode=code)
             index[p["id"]] = p
             report["new"].append(p["id"])
         else:
             report["matched"] += 1
-        if ln.get("barcode") and p["match"].get("type") == "barcode":
+        if code and p["match"].get("type") == "barcode":
             codes = p["match"].setdefault("barcodes", [])
-            if ln["barcode"] not in codes:
-                codes.append(ln["barcode"])
-        qty = float(ln.get("qty") or 1)
-        catalog.record_purchase(p, receipt_id=rid, date=r.get("date", ""), qty=qty,
-                                price=ln.get("unit_price"), store=r.get("store", ""), raw_name=raw)
-        report["sum_lines"] += float(ln.get("total") or 0) - float(ln.get("discount") or 0)
+            if code not in codes:
+                codes.append(code)
+        b = bought.setdefault(p["id"], {"qty": 0.0, "paid": 0.0, "raw": raw, "price": ln.get("unit_price")})
+        b["qty"] += float(ln.get("qty") or 1)
+        b["paid"] += float(ln.get("total") or 0) - float(ln.get("discount") or 0)
+    for pid, b in bought.items():
+        catalog.record_purchase(index[pid], receipt_id=rid, date=r.get("date", ""), qty=round(b["qty"], 3),
+                                price=b["price"], store=r.get("store", ""), raw_name=b["raw"],
+                                paid=round(b["paid"], 2))
+    report["sum_lines"] -= sum(float(x.get("amount") or 0) for x in r.get("extra_discounts", []))
     report["sum_lines"] = round(report["sum_lines"], 2)
     report["printed_total"] = r.get("total")
+    if r.get("total") is not None and abs(report["sum_lines"] - r["total"]) > 0.05:
+        report["warning"] = "sum of lines does not match printed total"
     return report
 
 

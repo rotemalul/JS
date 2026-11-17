@@ -12,6 +12,8 @@ Product fields:
                  "brands": [], "unit": "g", "size_min": 500, "size_max": 1000,
                  "barcodes": [preferred codes, optional]}                  any equivalent product
   need        {"qty": 2, "size": {"qty": 1000, "unit": "ml"}}   per typical shopping trip
+              {"qty": 1.2, "unit": "kg"}  for things bought by weight (meat, produce): qty is kg
+              "locked": true inside need -> learning won't overwrite qty
               for flex items price = cheapest unit price * qty * size; for weighted produce
               size is in grams (e.g. 1500 g of tomatoes)
   aliases     names as printed on receipts (normalized match)
@@ -50,12 +52,17 @@ def slug(name: str, existing: set[str]) -> str:
     return s
 
 
+def is_real_barcode(code: str | None) -> bool:
+    """Store-internal codes (produce, deli counter) are short; real EAN barcodes are 8+ digits."""
+    return bool(code) and code.isdigit() and len(code.lstrip("0")) >= 8
+
+
 def by_id(cat: dict) -> dict[str, dict]:
     return {p["id"]: p for p in cat["products"]}
 
 
 def find(cat: dict, *, barcode: str | None = None, name: str | None = None) -> dict | None:
-    if barcode:
+    if barcode and is_real_barcode(barcode):
         code = barcode.lstrip("0")
         for p in cat["products"]:
             if code in [b.lstrip("0") for b in p.get("match", {}).get("barcodes", [])]:
@@ -87,7 +94,7 @@ def new_product(cat: dict, name: str, *, barcode: str | None = None, category: s
 
 
 def record_purchase(p: dict, *, receipt_id: str, date: str, qty: float, price: float | None,
-                    store: str, raw_name: str) -> None:
+                    store: str, raw_name: str, paid: float | None = None) -> None:
     st = p.setdefault("stats", {"times_bought": 0, "receipts": [], "qty_history": []})
     if receipt_id in st["receipts"]:
         return  # idempotent re-import
@@ -96,6 +103,7 @@ def record_purchase(p: dict, *, receipt_id: str, date: str, qty: float, price: f
     st["qty_history"] = (st.get("qty_history", []) + [qty])[-RECENT_RECEIPTS:]
     if not st.get("last_bought") or date >= st["last_bought"]:
         st["last_bought"], st["last_price"], st["last_store"] = date, price, store
+        st["last_paid_total"] = paid
     if raw_name and norm_text(raw_name) not in [norm_text(a) for a in p.setdefault("aliases", [])]:
         p["aliases"].append(raw_name)
 
@@ -107,11 +115,13 @@ def relearn(cat: dict, receipt_ids_by_date: list[str]) -> dict[str, int]:
     counts = {"core": 0, "occasional": 0, "candidate": 0, "ignored": 0}
     for p in cat["products"]:
         st = p.get("stats", {})
-        if st.get("qty_history"):
+        if st.get("qty_history") and not p.get("need", {}).get("locked"):
             p.setdefault("need", {})["qty"] = round(median(st["qty_history"]), 2)
         if not p.get("locked"):
-            freq = len(recent & set(st.get("receipts", []))) / n
-            p["status"] = "core" if freq >= CORE_FREQ else "occasional" if freq >= OCCASIONAL_FREQ else "candidate"
+            hits = len(recent & set(st.get("receipts", [])))
+            freq = hits / n
+            # core needs repetition: at least 2 receipts (one big shop is not a habit yet)
+            p["status"] = "core" if (freq >= CORE_FREQ and hits >= 2) else "occasional" if freq >= OCCASIONAL_FREQ else "candidate"
             p.setdefault("stats", {})["frequency"] = round(freq, 2)
         counts[p.get("status", "candidate")] = counts.get(p.get("status", "candidate"), 0) + 1
     return counts

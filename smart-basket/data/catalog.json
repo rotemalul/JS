@@ -1,1 +1,4000 @@
-{"version": 1, "products": []}
+{
+  "version": 1,
+  "products": [
+    {
+      "id": "paper-cups",
+      "name": "כוסות נייר",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290112481061"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "כוס נייר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 2.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 2.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "huggies-wipes",
+      "name": "מגבוני האגיס",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000195537"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "מגבוני האגיס דיילי קר 72"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 20.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 59.7,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "touch-towels-6",
+      "name": "מגבות נייר טאצ' 6",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290103704155"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "מגבות טאצ' 6"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 13.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 10.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pads-40",
+      "name": "פדים 40 יח' (?)",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290112005946"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "receipt says 'פאדור 40 יח' – identify",
+      "aliases": [
+        "פאדור 40 יח פירינס"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 39.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 39.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "finish-salt-2kg",
+      "name": "פיניש מלח למדיח 2 ק\"ג",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "8410104045111"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "פירס חבה מחזיר 2 ק"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 20.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 25.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pampers-premium",
+      "name": "פמפרס פרימיום VP",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "8700216891011"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "check the size the baby is in now",
+      "aliases": [
+        "פמפרס פרימיום VP"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 34.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 85.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "toothpicks",
+      "name": "קיסמים (?)",
+      "category": "בית ותינוק",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290016651362"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "receipt says 'קיסם+חרוט רוטאני 10' – identify",
+      "aliases": [
+        "קיסם+חרוט רוטאני 10"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 15.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 15.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "asado",
+      "name": "אסאדו ללא עצם טרי",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אסאדו"
+        ],
+        "exclude": [
+          "קפוא",
+          "נקניק",
+          "אסאדור",
+          "קבב",
+          "טחון"
+        ]
+      },
+      "need": {
+        "qty": 1.09,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "אסאדו ללא עצם טרי"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.09
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 75.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 82.73,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "beef-ground",
+      "name": "בשר בקר טחון טרי",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "טחון"
+        ],
+        "exclude": [
+          "קפוא",
+          "עוף",
+          "הודו",
+          "פלפל",
+          "כמון",
+          "קפה",
+          "אגוז",
+          "שקד",
+          "שום",
+          "כורכום",
+          "פפריקה",
+          "תבלין",
+          "קינמון",
+          "ג'ינג'ר",
+          "ציפורן",
+          "הל",
+          "חרדל"
+        ]
+      },
+      "need": {
+        "qty": 2.5,
+        "unit": "kg"
+      },
+      "notes": "family buys premium Badatz from the counter",
+      "aliases": [
+        "טחון בקר פרימיום בדץ"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.496
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 64.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 137.28,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "salmon-portions",
+      "name": "מנות סלמון נורווגי",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "סלמון"
+        ],
+        "exclude": [
+          "מעושן",
+          "סושי",
+          "שימורי",
+          "חטיף",
+          "ממרח",
+          "חתול",
+          "פריסקיז",
+          "פאוצ",
+          "פאוץ",
+          "פטה",
+          "קט",
+          "פנסי",
+          "מונג",
+          "וואן"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 0.7,
+        "unit": "kg",
+        "locked": true
+      },
+      "notes": "Victory sells packs (54.90 before promo); weight ~0.7kg is an estimate",
+      "aliases": [
+        "מנות סלמון נורווגי"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 54.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 39.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "hotdogs-yechiam",
+      "name": "נקניקיות עוף יחיעם",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014046474"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "נקניקיות עוף יחיעם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 32.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 28.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pastrami-hermon",
+      "name": "פסטרמה כפרית חרמון",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290012227172"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "פסטרמה כפרית חרמון"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 27.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 27.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pargiyot",
+      "name": "פרגיות טריות",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "פרגיות",
+          "טרי"
+        ],
+        "exclude": [
+          "קפוא",
+          "נקניק",
+          "תיבול",
+          "תערובת"
+        ]
+      },
+      "need": {
+        "qty": 0.44,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "פרגיות טרי פרימיום"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          0.442
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 69.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 30.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "kabanos-garlic",
+      "name": "קבנוס בתיבול שום",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290003072972"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "קבנוס בתיבול שום"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 11.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 11.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "kabanos-135",
+      "name": "קבנוס מעודן 135 ג'",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290012227912"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "קבנוס מעודן 135 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 11.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 10.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "chicken-cocktail",
+      "name": "קוקטייל עוף מקוצב",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "קוקטייל",
+          "עוף"
+        ],
+        "exclude": [
+          "קפוא"
+        ]
+      },
+      "need": {
+        "qty": 2.24,
+        "unit": "kg"
+      },
+      "notes": "Yochananof counter item (mixed cut chicken). Ask the family which online cut is equivalent",
+      "aliases": [
+        "קוקטייל עוף מקוצב"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.238
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 49.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 95.11,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "roastbeef",
+      "name": "רוסטביף (מעדנייה)",
+      "category": "בשר עוף ודגים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "רוסטביף"
+        ]
+      },
+      "need": {
+        "qty": 0.28,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "רוסטביף"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          0.282
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 50.0,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 14.1,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "apropo-50",
+      "name": "אפרופו 50 ג'",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000066332"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "אפרופו 50 ג"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 4.5,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 13.5,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "bisli-bbq-70",
+      "name": "ביסלי ברביקיו 70 ג'",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290115201680"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "ביסלי ברביקיו 70 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 4.3,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 12.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "bisli-pizza-70",
+      "name": "ביסלי פיצה 70 ג'",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000066172"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "ביסלי פיצה 70 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 4.3,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 12.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "bamba-10pack",
+      "name": "במבה מארז 10*25 ג'",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290105693341"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "במבה מארז 10*25 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 15.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 22.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "milka-milk",
+      "name": "מילקה שוקולד חלב",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7622202262593"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "מילקה שוקולד חלב"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 9.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 21.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "gum-mint",
+      "name": "מסטיק בטעם מנטה",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "4009900403023"
+        ]
+      },
+      "need": {
+        "qty": 4.0
+      },
+      "notes": "",
+      "aliases": [
+        "מסטיק בטעם מנטה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          4.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 12.5,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 33.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cheetos-crunch-cheese",
+      "name": "ציטוס קראנץ' גבינה",
+      "category": "חטיפים ומתוקים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290115670899"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "ציטוס קראנץ גבינה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 4.3,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 12.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "actimel",
+      "name": "אקטימל (מארז)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290119380923"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "Yochananof: 16 units 32.90; Victory: 'מארז אקטימל לבן 10' 37.30 – same barcode, check pack size",
+      "aliases": [
+        "מארז אקטימל לבן 10",
+        "אקטימל 16 יחידות"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0,
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 32.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 32.9,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "eggs-12",
+      "name": "ביצים L 12",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "ביצים"
+        ],
+        "exclude": [
+          "שליו",
+          "אורגני",
+          "חופש",
+          "ממרח",
+          "סלט"
+        ],
+        "unit": "unit",
+        "size_min": 12,
+        "size_max": 12,
+        "barcodes": [
+          "7290001201589"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "price-controlled",
+      "aliases": [
+        "ביצים 12 יח ארוזות"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 14.54,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 14.54,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cream-cheese-5-250",
+      "name": "גבינה לבנה/קרם גבינה 5% 250 ג' (סקי)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002824640"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "קרם גבינה 5% 250 ג",
+        "גבינת סקי 5% 250 גרם"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0,
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 5.87,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 11.74,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "cheese-triangles-naama",
+      "name": "גבינה מותכת משולשים נעמה",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000045580"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "נעמה חרוד משולשים"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 24.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 24.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "yellow-cheese-28",
+      "name": "גבינה צהובה 28% (ארוזה)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014761698"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "גבינה צהובה 28%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 39.0,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 39.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "halloumi",
+      "name": "גבינת חלומי 24%",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290011499365"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "גבינה חלומי 24%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 29.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 22.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "danone-strawberry",
+      "name": "דנונה תות 3%",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290006664532"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "דנונה תות 3%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 3.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 7.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "milk-tnuva-3-carton",
+      "name": "חלב תנובה 3% קרטון 1 ל'",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290004131074"
+        ]
+      },
+      "need": {
+        "qty": 4.0
+      },
+      "notes": "מחיר מפוקח",
+      "aliases": [
+        "חלב 3% שומן קרטון",
+        "חלב תנובה טריול קרטו"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          4.0,
+          4.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 7.35,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 29.4,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "butter-tnuva-200",
+      "name": "חמאה תנובה 200 ג'",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290116932033"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "חמאה 200 גרם תנובה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.5,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.5,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "deli-mozzarella",
+      "name": "מוצרלה (מעדנייה)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "מוצרלה"
+        ],
+        "exclude": [
+          "בייבי",
+          "כדורים",
+          "פיצה",
+          "מגורדת"
+        ]
+      },
+      "need": {
+        "qty": 0.17,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "גבינה מוצרלה 21%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          0.172
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 53.0,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 9.12,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "mozzarella-baby",
+      "name": "מוצרלה בייבי",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290006492432"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "גבינה מוצרלה בייבי"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 19.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 19.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pudding-vanilla",
+      "name": "מעדן וניל 125 ג'",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290110557133"
+        ]
+      },
+      "need": {
+        "qty": 4.0
+      },
+      "notes": "",
+      "aliases": [
+        "מעדן וניל 125 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          4.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 3.3,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 13.2,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pudding-chocolate",
+      "name": "מעדן שוקולד 125 ג' (הגולן)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290115678376"
+        ]
+      },
+      "need": {
+        "qty": 4.0
+      },
+      "notes": "",
+      "aliases": [
+        "מעדן שוקולד 125 גר",
+        "מעדן הגולן שוקולד"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          4.0,
+          4.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 2.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 11.6,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "symphonia-200",
+      "name": "סימפוניה 200 ג'",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290110573058"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "סימפוניה 200 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 11.2,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 11.2,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "symphonia-olives",
+      "name": "סימפוניה זיתים 5%",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290005839108"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "סימפוניה זיתים 5%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 11.2,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 11.2,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "deli-emek-28",
+      "name": "עמק פרוס 28% (מעדנייה)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "עמק",
+          "28%"
+        ],
+        "exclude": [
+          "מגורדת"
+        ],
+        "barcodes": [
+          "7290000055350"
+        ]
+      },
+      "need": {
+        "qty": 0.27,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "עמק פרוס 28% צהוב"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          0.27
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 52.85,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 14.27,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "deli-tzfatit",
+      "name": "צפתית 5% (מעדנייה)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "צפתית"
+        ]
+      },
+      "need": {
+        "qty": 0.23,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "צפתית מעודנת 5%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          0.232
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 74.0,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 17.17,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cottage-5",
+      "name": "קוטג' 5% 250 ג'",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290004127329"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "קוטג' 5% שומן 250 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 6.1,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 6.1,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "deli-kashkaval",
+      "name": "קשקבל (מעדנייה)",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "קשקבל"
+        ]
+      },
+      "need": {
+        "qty": 0.22,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "גבינה קשקבל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          0.22
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 110.0,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 24.2,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cooking-cream-15",
+      "name": "שמנת לבישול 15%",
+      "category": "חלב וביצים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290004125721"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "שמנת לבישול 15%"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 10.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 10.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "avocado",
+      "name": "אבוקדו",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אבוקדו"
+        ],
+        "exclude": [
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true,
+        "barcodes": [
+          "7290014462342"
+        ]
+      },
+      "need": {
+        "qty": 0.82,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "אבוקדו האס בשל ארוז",
+        "אבוקדו"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0,
+          0.635
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 5.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 3.75,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "pineapple",
+      "name": "אננס",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אננס"
+        ],
+        "exclude": [
+          "מיובש",
+          "מסוכר",
+          "סירופ",
+          "צבעוני",
+          "מחית",
+          "סוכר",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.06,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "אננס במשקל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.065
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 10.54,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "persimmon",
+      "name": "אפרסמון",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אפרסמון"
+        ],
+        "exclude": [
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 0.79,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "אפרסמון ישראל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          0.785
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 15.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 12.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "banana",
+      "name": "בננות",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "בננה"
+        ],
+        "exclude": [
+          "אורגני",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.09,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "בננה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.095
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 7.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 8.65,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "בצל"
+        ],
+        "exclude": [
+          "ירוק",
+          "סגול",
+          "שאלוט",
+          "מטוגן",
+          "פתיתי",
+          "קרקר",
+          "אבקת",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.13,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "בצל יבש ישראל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.13
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 5.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 6.67,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "coriander",
+      "name": "כוסברה (צרור)",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "כוסבר"
+        ],
+        "exclude": [
+          "טחונה",
+          "זרעי",
+          "קפוא",
+          "קוביות"
+        ],
+        "barcodes": [
+          "7290019693086"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "כוסברה יח"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 3.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 3.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cauliflower",
+      "name": "כרובית",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "כרובית"
+        ],
+        "exclude": [
+          "קפוא",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "כרובית ישראל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 9.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "melon",
+      "name": "מלון",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "מלון"
+        ],
+        "exclude": [
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.09,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "מלון"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.09
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 5.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 6.43,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפונים",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "מלפפון"
+        ],
+        "exclude": [
+          "בייבי",
+          "חמוץ",
+          "כבוש",
+          "אורגני",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.21,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "מלפפון ישראל",
+        "מלפפון"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.425,
+          0.995
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 4.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 4.88,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניות",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "עגבני"
+        ],
+        "exclude": [
+          "שרי",
+          "מגי",
+          "אורגני",
+          "מיובש",
+          "רסק",
+          "תמר",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 0.91,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "עגבנייה ישראל",
+        "עגבניה"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          0.875,
+          0.94
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 7.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 4.61,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "grapes-white",
+      "name": "ענבים לבנים",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "ענב"
+        ],
+        "exclude": [
+          "אדומ",
+          "שחור",
+          "צימוק",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.19,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "ענב לבן מובחר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.185
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 21.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 25.95,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "hot-pepper",
+      "name": "פלפל חריף",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "פלפל",
+          "חריף"
+        ],
+        "exclude": [
+          "רסק",
+          "טחון",
+          "גרוס",
+          "שחור",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 0.21,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "פלפל חריף"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          0.21
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 8.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 1.87,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "garlic-peeled-170",
+      "name": "שום קלוף 170 ג'",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290015855143"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "שום קלוף 170 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "corn-fresh",
+      "name": "תירס טרי",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "תירס"
+        ],
+        "exclude": [
+          "שימורים",
+          "פופקורן",
+          "קפוא",
+          "פתיתי",
+          "קולינרי",
+          "מבושל",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 1.12,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "תירס"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.125
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 8.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 10.01,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "potato-red",
+      "name": "תפוחי אדמה אדומים",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אדמה"
+        ],
+        "exclude": [
+          "בטטה",
+          "אורגני",
+          "צ'יפס",
+          "פירה",
+          "קפוא",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 2.93,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "תפוא אדום ישראל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.93
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 5.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 17.29,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "apples",
+      "name": "תפוחי עץ",
+      "category": "ירקות ופירות",
+      "match": {
+        "type": "flex",
+        "include": [
+          "תפוח"
+        ],
+        "exclude": [
+          "אדמה",
+          "תפוא",
+          "בטטה",
+          "אורגני",
+          "חטיף",
+          "מיץ",
+          "רוטב",
+          "ממרח",
+          "עוגה",
+          "יוגורט",
+          "שימורי",
+          "קפוא",
+          "זרעי",
+          "תרסיס",
+          "סבון"
+        ],
+        "weighted": true
+      },
+      "need": {
+        "qty": 2.42,
+        "unit": "kg"
+      },
+      "notes": "",
+      "aliases": [
+        "תפוח סטארקינג",
+        "תפוח עץ חרמון"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.175,
+          2.665
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 10.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 27.65,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "rolls-10",
+      "name": "10 לחמניות בשקית",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000498256"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "10 לחמניות בשקית"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 13.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 13.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "jachnun",
+      "name": "ג'חנון צנעני 900 ג'",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002512011"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "צנעני גחנון 900 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 19.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 19.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "tortilla-378",
+      "name": "טורטיה 378 ג' (אבא)",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290019393146"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "טורטיה 378 גר אבא"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 9.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 15.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "bread-angel-sliced",
+      "name": "לחם אחיד פרוס אנג'ל",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290018500361"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "מחיר מפוקח",
+      "aliases": [
+        "לחם אחיד פרוס אנג'ל"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 8.4,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 8.4,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pita-berman",
+      "name": "מארז פיתות ברמן",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290004033057"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "מארז פיתות ברמן"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 15.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 15.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "malawach-alpha",
+      "name": "מלוואח אלפא 700 ג'",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002512509"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "מלוואח אלפא 700 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pita-yemeni",
+      "name": "פיתה תימנית",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290010777242"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "name uncertain on receipt",
+      "aliases": [
+        "פיתה תימנית"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 15.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 15.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "crackers-onion",
+      "name": "קרקר בצל אסם 250 ג'",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000061061"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "קרקר בצל אסם 250 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 12.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 12.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "crackers-piquant",
+      "name": "קרקר פיקנטי 250 ג'",
+      "category": "לחם ומאפים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290000074276"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "קרקר פיקנטי 250 גר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 10.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 10.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "tirosh-red-1l",
+      "name": "מיץ ענבים תירוש אדום 1 ל'",
+      "category": "משקאות",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290017812571"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "תירוש אדום 1 ליטר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 19.6,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 19.6,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "orange-juice-2l",
+      "name": "מיץ תפוזים סחוט 2 ל'",
+      "category": "משקאות",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290110114893"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "סחוט תפוזים 2 ליטר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 34.6,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 34.6,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "coke-zero-1.5-6",
+      "name": "קוקה קולה זירו 1.5 ל' שישייה",
+      "category": "משקאות",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290110115418"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "קוקה קולה זירו 1.5 ל' שישייה",
+        "קוקה קולה זירו שישייה"
+      ],
+      "status": "core",
+      "locked": false,
+      "stats": {
+        "times_bought": 2,
+        "receipts": [
+          "2026-11-05_victory-netivot",
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0,
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 45.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 91.8,
+        "frequency": 1.0
+      }
+    },
+    {
+      "id": "coke-cans-6",
+      "name": "שישיית פחיות קוקה קולה",
+      "category": "משקאות",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290011018917"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "שישיית פחית קוקה קולה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 23.1,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 40.2,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pizza-bites",
+      "name": "נשנושי פיצה מרגריטה",
+      "category": "קפואים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002533788"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "נשנושי פיצה מרגריטה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 29.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 39.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "edamame",
+      "name": "פולי סויה אדממה 454 ג'",
+      "category": "קפואים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290006511683"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "פולי סויה אדממה 454"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 15.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "ravioli-cheese",
+      "name": "רביולי במילוי גבינה",
+      "category": "קפואים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290003989539"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "רביולי במילוי גבינה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 19.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 32.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "rice-persian",
+      "name": "אורז פרסי 1 ק\"ג",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אורז",
+          "פרסי"
+        ],
+        "unit": "g",
+        "size_min": 900,
+        "size_max": 1000,
+        "barcodes": [
+          "7290018546697"
+        ]
+      },
+      "need": {
+        "qty": 1.0,
+        "size": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "אורז פרסי"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 6.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 6.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "rice-paper",
+      "name": "דפי אורז מרובעים",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "8934878081866"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "דפי אורז מרובעים"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 11.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 11.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "olive-rings-green",
+      "name": "טבעות זיתים ירוקים",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002317579"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "טבעות זיתים ירוקים"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 14.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 27.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "tuna-starkist",
+      "name": "טונה סטארקיסט בשמן (רביעייה)",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290005287206"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "טונה סטארקיסט בשמן"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 25.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 49.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "sauerkraut",
+      "name": "כרוב כבוש בית השיטה",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290113192577"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "כרוב כבוש בית השיטה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 8.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 8.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "chestnuts-roasted",
+      "name": "ערמונים שלמים קלויים",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "8691058141238"
+        ]
+      },
+      "need": {
+        "qty": 3.0
+      },
+      "notes": "",
+      "aliases": [
+        "ערמונים שלמים קלויים"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          3.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 5.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 12.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cornflakes-alufim",
+      "name": "קורנפלקס אלופים",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290112494351"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "קורנפלקס אלופים"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 21.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 39.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "dressing-1000-island",
+      "name": "רוטב אלף האיים",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290112964410"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "רוטב אלף האיים"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 12.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 12.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "dressing-salad",
+      "name": "רוטב לסלט",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290112964625"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "name unclear on receipt",
+      "aliases": [
+        "רוטב לסלט"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 12.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 12.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "tomato-paste",
+      "name": "רוטב עגבניות מרוכז (רסק)",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002019794"
+        ]
+      },
+      "need": {
+        "qty": 4.0
+      },
+      "notes": "",
+      "aliases": [
+        "רוטב עגבניות מרוכז"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          4.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 2.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 11.6,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "chickpeas-can",
+      "name": "שימורי גרגירי חומוס (סוגת)",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290100704974"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "שימורי גרגירי חומוס"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 7.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 5.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "beans-white-can",
+      "name": "שימורי שעועית לבנה (סוגת)",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290100704998"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "שימורי שעועית לבנה"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 7.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 5.0,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "canola-oil",
+      "name": "שמן קנולה מזוכך",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290002374312"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "barcode partly unreadable on receipt",
+      "aliases": [
+        "שמן קנולה מזוכך"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 9.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 19.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "corn-can-410",
+      "name": "תירס צעיר שלם 410 ג'",
+      "category": "שימורים ויבשים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290003578177"
+        ]
+      },
+      "need": {
+        "qty": 2.0
+      },
+      "notes": "",
+      "aliases": [
+        "תירס צעיר שלם 410"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-05_victory-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-05",
+        "last_price": 7.9,
+        "last_store": "ויקטורי נתיבות",
+        "last_paid_total": 15.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "spice-tbul-fish",
+      "name": "T-BUL לדגים 90 גרם",
+      "category": "תבלינים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014217010"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "T-BUL לדגים 90 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "oregano",
+      "name": "אורגנו",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "אורגנו"
+        ],
+        "exclude": [
+          "פיצה"
+        ],
+        "unit": "g",
+        "size_min": 15,
+        "size_max": 100,
+        "barcodes": [
+          "7290014217065"
+        ]
+      },
+      "need": {
+        "qty": 1.0,
+        "size": {
+          "qty": 40,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "אורגנו 40 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "baharat",
+      "name": "בהרט לבישול 80 גרם",
+      "category": "תבלינים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290015324557"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "בהרט לבישול 80 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "turmeric",
+      "name": "כורכום",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "כורכום"
+        ],
+        "exclude": [
+          "כמוסות",
+          "תה"
+        ],
+        "unit": "g",
+        "size_min": 50,
+        "size_max": 250,
+        "barcodes": [
+          "7290000134840"
+        ]
+      },
+      "need": {
+        "qty": 2.0,
+        "size": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "כורכום 100 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 19.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "cumin",
+      "name": "כמון טחון",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "כמון"
+        ],
+        "exclude": [
+          "שלם",
+          "זרעי"
+        ],
+        "unit": "g",
+        "size_min": 40,
+        "size_max": 250,
+        "barcodes": [
+          "7290000134833"
+        ]
+      },
+      "need": {
+        "qty": 2.0,
+        "size": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "כמון 100 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 19.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pepper-white",
+      "name": "פלפל לבן טחון",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "פלפל",
+          "לבן"
+        ],
+        "exclude": [
+          "גרגיר"
+        ],
+        "unit": "g",
+        "size_min": 30,
+        "size_max": 150,
+        "barcodes": [
+          "7290002517825"
+        ]
+      },
+      "need": {
+        "qty": 1.0,
+        "size": {
+          "qty": 40,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "פלפל לבן טחון 40 ג"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "pepper-black",
+      "name": "פלפל שחור טחון",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "פלפל",
+          "שחור"
+        ],
+        "exclude": [
+          "גרגיר",
+          "שלם"
+        ],
+        "unit": "g",
+        "size_min": 40,
+        "size_max": 250,
+        "barcodes": [
+          "7290000134871"
+        ]
+      },
+      "need": {
+        "qty": 2.0,
+        "size": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "פלפל שחור טחון 100 ג"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 14.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 29.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "paprika-sweet",
+      "name": "פפריקה מתוקה",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "פפריקה",
+          "מתוקה"
+        ],
+        "exclude": [
+          "שמן",
+          "ממרח"
+        ],
+        "unit": "g",
+        "size_min": 50,
+        "size_max": 250,
+        "barcodes": [
+          "7290000134857"
+        ]
+      },
+      "need": {
+        "qty": 2.0,
+        "size": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "פפריקה מתוקה 100 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          2.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 19.8,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "garlic-granules",
+      "name": "שום גבישי",
+      "category": "תבלינים",
+      "match": {
+        "type": "flex",
+        "include": [
+          "שום",
+          "גבישי"
+        ],
+        "unit": "g",
+        "size_min": 60,
+        "size_max": 250,
+        "barcodes": [
+          "7290011964344"
+        ]
+      },
+      "need": {
+        "qty": 1.0,
+        "size": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      "notes": "",
+      "aliases": [
+        "שום גבישי 120 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 10.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 10.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "spice-grill-chicken",
+      "name": "תבלין גריל עוף 120 גרם",
+      "category": "תבלינים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014217225"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "גריל עוף 120 גרם"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "spice-garlic-bread",
+      "name": "תערובת לחם שום 100 גרם",
+      "category": "תבלינים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014217522"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "תערובת תיבול לבשר"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "spice-pargiyot",
+      "name": "תערובת תיבול לפרגיות",
+      "category": "תבלינים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014217263"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "תערובת לתיבול פרגי"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    },
+    {
+      "id": "spice-ktzitzot",
+      "name": "תערובת תיבול לקציצות",
+      "category": "תבלינים",
+      "match": {
+        "type": "barcode",
+        "barcodes": [
+          "7290014217362"
+        ]
+      },
+      "need": {
+        "qty": 1.0
+      },
+      "notes": "",
+      "aliases": [
+        "תערובת תיבול לקציצ"
+      ],
+      "status": "occasional",
+      "locked": false,
+      "stats": {
+        "times_bought": 1,
+        "receipts": [
+          "2026-11-13_yochananof-netivot"
+        ],
+        "qty_history": [
+          1.0
+        ],
+        "last_bought": "2026-11-13",
+        "last_price": 9.9,
+        "last_store": "יוחננוף נתיבות",
+        "last_paid_total": 9.9,
+        "frequency": 0.5
+      }
+    }
+  ]
+}

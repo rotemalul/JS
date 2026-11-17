@@ -2,8 +2,9 @@
   "settings": {
     "min_coverage": 0.8,
     "split_min_saving": 25,
-    "home_city": "נתיבות",
-    "_note": "split_min_saving: recommend splitting the order only if it saves at least this many ₪ after delivery fees"
+    "home_city": "מושב תאשור (ליד נתיבות)",
+    "_note": "split_min_saving: recommend splitting the order only if it saves at least this many ₪ after delivery fees",
+    "_delivery_note": "Family lives in Moshav Tashur: online stores must deliver there; physical stores need a drive to Netivot. Fill delivery_fee per store."
   },
   "stores": [
     {
@@ -39,6 +40,18 @@
       "enabled": false,
       "delivery_fee": 29.9,
       "_verified": "NOT YET – run: python -m basket stores find ramilevy-online אינטרנט  and put the store id"
+    },
+    {
+      "key": "yochananof-netivot",
+      "name": "יוחננוף נתיבות (חנות פיזית)",
+      "source": "cerberus",
+      "username": "yohananof",
+      "chain_id": "7290803800003",
+      "store_id": "009",
+      "type": "physical",
+      "enabled": false,
+      "delivery_fee": 0,
+      "_verified": "store_id 009 read from receipt 2026-11-13 ('סניף 009'); feed not verified yet"
     },
     {
       "key": "yochananof-online",
@@ -82,7 +95,8 @@
       "type": "physical",
       "enabled": true,
       "delivery_fee": 0,
-      "_note": "manual-only for now: prices come from data/manual_deals.json (שלישי שוק). Set source=laib + store_id to add its feed."
+      "_note": "Family shops here (receipt 2026-11-05). Manual-only until the laib feed is verified; its internal produce codes != barcodes.",
+      "address": "בעלי המלאכה, נתיבות"
     }
   ]
 }

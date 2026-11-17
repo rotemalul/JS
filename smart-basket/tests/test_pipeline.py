@@ -93,3 +93,21 @@ def test_parse_size():
     assert parse_size("שישיית מים 6*1.5 ליטר").qty == 9000
     assert parse_size("גבינה לבנה3% 250ג").qty == 250
     assert parse_size('קפה 1 ק"ג').qty == 1000
+
+
+def test_receipt_aggregation_internal_codes_and_skip(env):
+    from basket import catalog, config, receipts
+    config.save_json(config.RECEIPTS_DIR / "r1.json", {"id": "r1", "date": "2026-11-13", "store": "Y", "total": 160.0,
+        "extra_discounts": [{"label": "x", "amount": 1.0}], "lines": [
+        {"raw_name": "טחון בקר", "barcode": "407869", "qty": 1.144, "unit_price": 64.9, "total": 74.25, "discount": 11.33},
+        {"raw_name": "טחון בקר", "barcode": "407869", "qty": 1.352, "unit_price": 64.9, "total": 87.74, "discount": 13.38},
+        {"raw_name": "שקית", "barcode": "34560", "qty": 15, "total": 1.5, "skip": True},
+        {"raw_name": "עגבניה", "barcode": "725", "qty": 0.94, "unit_price": 7.9, "total": 7.43, "discount": 2.82},
+        {"raw_name": "תרומה", "barcode": "101114", "qty": 1, "total": 17.61, "skip": True}]})
+    rep = receipts.import_all()[0]
+    assert rep["skipped"] == 2 and "warning" not in rep
+    cat = catalog.load()
+    beef = catalog.find(cat, name="טחון בקר")
+    assert beef["stats"]["qty_history"] == [2.496]          # two lines, one purchase
+    assert beef["match"]["type"] == "flex"                  # internal code is not a barcode
+    assert catalog.find(cat, barcode="725") is None

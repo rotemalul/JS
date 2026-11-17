@@ -36,13 +36,23 @@ def _apply_promo(con, store_key, row, packs, clubs) -> tuple[float, str | None]:
     return (pr[0], pr[1]) if pr else (row["price"], None)
 
 
-def _offer_for_row(con, store_key, row, product, clubs, exact) -> Offer:
+def _need_base_amount(product: dict) -> tuple[float | None, str | None]:
+    """Total amount needed per trip in base units (g/ml/unit), if known."""
     qty, size = _need_amount(product)
+    if size and size.get("qty"):
+        return size["qty"] * qty, size.get("unit")
+    if (product.get("need") or {}).get("unit") == "kg":
+        return qty * 1000.0, "g"
+    return None, None
+
+
+def _offer_for_row(con, store_key, row, product, clubs, exact) -> Offer:
+    qty, _ = _need_amount(product)
+    amount, unit = _need_base_amount(product)
     if row["is_weighted"]:
-        kg = (size["qty"] * qty / 1000.0) if size and size.get("unit") == "g" else qty
-        packs = kg
-    elif size and row["size_qty"] and size.get("unit") == row["size_unit"] and not exact:
-        packs = max(1, math.ceil(size["qty"] * qty / row["size_qty"] - 1e-9))
+        packs = amount / 1000.0 if (amount and unit == "g") else qty   # priced per kg
+    elif not exact and amount and row["size_qty"] and unit == row["size_unit"]:
+        packs = max(1, math.ceil(amount / row["size_qty"] - 1e-9))     # enough packs to cover the need
     else:
         packs = qty
     eff, promo = _apply_promo(con, store_key, row, packs, clubs)

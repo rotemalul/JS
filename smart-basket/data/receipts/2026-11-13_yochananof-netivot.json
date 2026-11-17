@@ -1,0 +1,545 @@
+{
+  "id": "2026-11-13_yochananof-netivot",
+  "date": "2026-11-13",
+  "store": "יוחננוף נתיבות",
+  "store_key": "yochananof-netivot",
+  "total": 1119.87,
+  "savings_printed": 113.99,
+  "lines": [
+    {
+      "raw_name": "תערובת לתיבול פרגי",
+      "barcode": "7290014217263",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "spice-pargiyot"
+    },
+    {
+      "raw_name": "פלפל שחור טחון 100 ג",
+      "barcode": "7290000134871",
+      "qty": 2,
+      "unit_price": 14.9,
+      "total": 29.8,
+      "discount": 0,
+      "product_id": "pepper-black"
+    },
+    {
+      "raw_name": "כמון 100 גרם",
+      "barcode": "7290000134833",
+      "qty": 2,
+      "unit_price": 9.9,
+      "total": 19.8,
+      "discount": 0,
+      "product_id": "cumin"
+    },
+    {
+      "raw_name": "T-BUL לדגים 90 גרם",
+      "barcode": "7290014217010",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "spice-tbul-fish"
+    },
+    {
+      "raw_name": "אורגנו 40 גרם",
+      "barcode": "7290014217065",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "oregano"
+    },
+    {
+      "raw_name": "גריל עוף 120 גרם",
+      "barcode": "7290014217225",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "spice-grill-chicken"
+    },
+    {
+      "raw_name": "פפריקה מתוקה 100 גרם",
+      "barcode": "7290000134857",
+      "qty": 2,
+      "unit_price": 9.9,
+      "total": 19.8,
+      "discount": 0,
+      "product_id": "paprika-sweet"
+    },
+    {
+      "raw_name": "כורכום 100 גרם",
+      "barcode": "7290000134840",
+      "qty": 2,
+      "unit_price": 9.9,
+      "total": 19.8,
+      "discount": 0,
+      "product_id": "turmeric"
+    },
+    {
+      "raw_name": "תערובת תיבול לקציצ",
+      "barcode": "7290014217362",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "spice-ktzitzot"
+    },
+    {
+      "raw_name": "חלב תנובה טריול קרטו",
+      "barcode": "7290004131074",
+      "qty": 4,
+      "unit_price": 7.35,
+      "total": 29.4,
+      "discount": 0,
+      "product_id": "milk-tnuva-3-carton"
+    },
+    {
+      "raw_name": "שום גבישי 120 גרם",
+      "barcode": "7290011964344",
+      "qty": 1,
+      "unit_price": 10.9,
+      "total": 10.9,
+      "discount": 0,
+      "product_id": "garlic-granules"
+    },
+    {
+      "raw_name": "בהרט לבישול 80 גרם",
+      "barcode": "7290015324557",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "baharat"
+    },
+    {
+      "raw_name": "תערובת תיבול לבשר",
+      "barcode": "7290014217522",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "uncertain": true,
+      "product_id": "spice-garlic-bread"
+    },
+    {
+      "raw_name": "פלפל לבן טחון 40 ג",
+      "barcode": "7290002517825",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "pepper-white"
+    },
+    {
+      "raw_name": "דנונה תות 3%",
+      "barcode": "7290006664532",
+      "qty": 2,
+      "unit_price": 3.9,
+      "total": 7.8,
+      "discount": 0,
+      "product_id": "danone-strawberry"
+    },
+    {
+      "raw_name": "גבינת סקי 5% 250 גרם",
+      "barcode": "7290002824640",
+      "qty": 2,
+      "unit_price": 5.87,
+      "total": 11.74,
+      "discount": 0,
+      "product_id": "cream-cheese-5-250"
+    },
+    {
+      "raw_name": "אקטימל 16 יחידות",
+      "barcode": "7290119380923",
+      "qty": 1,
+      "unit_price": 32.9,
+      "total": 32.9,
+      "discount": 0,
+      "product_id": "actimel"
+    },
+    {
+      "raw_name": "חמאה 200 גרם תנובה",
+      "barcode": "7290116932033",
+      "qty": 1,
+      "unit_price": 9.5,
+      "total": 9.5,
+      "discount": 0,
+      "product_id": "butter-tnuva-200"
+    },
+    {
+      "raw_name": "מעדן הגולן שוקולד",
+      "barcode": "7290115678376",
+      "qty": 4,
+      "unit_price": 2.9,
+      "total": 11.6,
+      "discount": 0,
+      "product_id": "pudding-chocolate"
+    },
+    {
+      "raw_name": "דפי אורז מרובעים",
+      "barcode": "8934878081866",
+      "qty": 1,
+      "unit_price": 11.9,
+      "total": 11.9,
+      "discount": 0,
+      "product_id": "rice-paper"
+    },
+    {
+      "raw_name": "שימורי שעועית לבנה",
+      "barcode": "7290100704998",
+      "qty": 1,
+      "unit_price": 7.9,
+      "total": 7.9,
+      "discount": 2.9,
+      "product_id": "beans-white-can"
+    },
+    {
+      "raw_name": "שימורי גרגירי חומוס",
+      "barcode": "7290100704974",
+      "qty": 1,
+      "unit_price": 7.9,
+      "total": 7.9,
+      "discount": 2.9,
+      "product_id": "chickpeas-can"
+    },
+    {
+      "raw_name": "נשנושי פיצה מרגריטה",
+      "barcode": "7290002533788",
+      "qty": 2,
+      "unit_price": 29.9,
+      "total": 59.8,
+      "discount": 20.0,
+      "product_id": "pizza-bites"
+    },
+    {
+      "raw_name": "צנעני גחנון 900 גר",
+      "barcode": "7290002512011",
+      "qty": 1,
+      "unit_price": 19.9,
+      "total": 19.9,
+      "discount": 0,
+      "uncertain": true,
+      "product_id": "jachnun"
+    },
+    {
+      "raw_name": "מלוואח אלפא 700 גר",
+      "barcode": "7290002512509",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "malawach-alpha"
+    },
+    {
+      "raw_name": "טחון בקר פרימיום בדץ",
+      "barcode": "407869",
+      "qty": 1.144,
+      "unit_price": 64.9,
+      "total": 74.25,
+      "discount": 11.33,
+      "product_id": "beef-ground"
+    },
+    {
+      "raw_name": "טחון בקר פרימיום בדץ",
+      "barcode": "407869",
+      "qty": 1.352,
+      "unit_price": 64.9,
+      "total": 87.74,
+      "discount": 13.38,
+      "product_id": "beef-ground"
+    },
+    {
+      "raw_name": "פרגיות טרי פרימיום",
+      "barcode": "400693",
+      "qty": 0.442,
+      "unit_price": 69.9,
+      "total": 30.9,
+      "discount": 0,
+      "product_id": "pargiyot"
+    },
+    {
+      "raw_name": "קוקטייל עוף מקוצב",
+      "barcode": "405568",
+      "qty": 1.064,
+      "unit_price": 49.9,
+      "total": 53.09,
+      "discount": 7.87,
+      "product_id": "chicken-cocktail"
+    },
+    {
+      "raw_name": "קוקטייל עוף מקוצב",
+      "barcode": "405568",
+      "qty": 1.174,
+      "unit_price": 49.9,
+      "total": 58.58,
+      "discount": 8.69,
+      "product_id": "chicken-cocktail"
+    },
+    {
+      "raw_name": "אורז פרסי",
+      "barcode": "7290018546697",
+      "qty": 1,
+      "unit_price": 6.9,
+      "total": 6.9,
+      "discount": 0,
+      "product_id": "rice-persian"
+    },
+    {
+      "raw_name": "פולי סויה אדממה 454",
+      "barcode": "7290006511683",
+      "qty": 2,
+      "unit_price": 9.9,
+      "total": 19.8,
+      "discount": 4.8,
+      "product_id": "edamame"
+    },
+    {
+      "raw_name": "אפרופו 50 ג",
+      "barcode": "7290000066332",
+      "qty": 3,
+      "unit_price": 4.5,
+      "total": 13.5,
+      "discount": 0,
+      "product_id": "apropo-50"
+    },
+    {
+      "raw_name": "ביסלי פיצה 70 גרם",
+      "barcode": "7290000066172",
+      "qty": 3,
+      "unit_price": 4.3,
+      "total": 12.9,
+      "discount": 0,
+      "product_id": "bisli-pizza-70"
+    },
+    {
+      "raw_name": "קוקה קולה זירו שישייה",
+      "barcode": "7290110115418",
+      "qty": 2,
+      "unit_price": 45.9,
+      "total": 91.8,
+      "discount": 0,
+      "product_id": "coke-zero-1.5-6"
+    },
+    {
+      "raw_name": "ביסלי ברביקיו 70 גרם",
+      "barcode": "7290115201680",
+      "qty": 3,
+      "unit_price": 4.3,
+      "total": 12.9,
+      "discount": 0,
+      "product_id": "bisli-bbq-70"
+    },
+    {
+      "raw_name": "ציטוס קראנץ גבינה",
+      "barcode": "7290115670899",
+      "qty": 3,
+      "unit_price": 4.3,
+      "total": 12.9,
+      "discount": 0,
+      "product_id": "cheetos-crunch-cheese"
+    },
+    {
+      "raw_name": "במבה מארז 10*25 גרם",
+      "barcode": "7290105693341",
+      "qty": 2,
+      "unit_price": 15.9,
+      "total": 31.8,
+      "discount": 9.8,
+      "product_id": "bamba-10pack"
+    },
+    {
+      "raw_name": "נקניקיות עוף יחיעם",
+      "barcode": "7290014046474",
+      "qty": 1,
+      "unit_price": 32.9,
+      "total": 32.9,
+      "discount": 4.0,
+      "product_id": "hotdogs-yechiam"
+    },
+    {
+      "raw_name": "פסטרמה כפרית חרמון",
+      "barcode": "7290012227172",
+      "qty": 1,
+      "unit_price": 27.9,
+      "total": 27.9,
+      "discount": 0,
+      "product_id": "pastrami-hermon"
+    },
+    {
+      "raw_name": "פמפרס פרימיום VP",
+      "barcode": "8700216891011",
+      "qty": 3,
+      "unit_price": 34.9,
+      "total": 104.7,
+      "discount": 19.7,
+      "product_id": "pampers-premium"
+    },
+    {
+      "raw_name": "תירס",
+      "barcode": "789",
+      "qty": 1.125,
+      "unit_price": 8.9,
+      "total": 10.01,
+      "discount": 0,
+      "product_id": "corn-fresh"
+    },
+    {
+      "raw_name": "אננס במשקל",
+      "barcode": "8022",
+      "qty": 1.065,
+      "unit_price": 9.9,
+      "total": 10.54,
+      "discount": 0,
+      "product_id": "pineapple"
+    },
+    {
+      "raw_name": "עגבניה",
+      "barcode": "725",
+      "qty": 0.94,
+      "unit_price": 7.9,
+      "total": 7.43,
+      "discount": 2.82,
+      "product_id": "tomato"
+    },
+    {
+      "raw_name": "תפוח עץ חרמון",
+      "barcode": "787",
+      "qty": 1.27,
+      "unit_price": 10.9,
+      "total": 13.84,
+      "discount": 0,
+      "product_id": "apples"
+    },
+    {
+      "raw_name": "מלפפון",
+      "barcode": "695",
+      "qty": 0.995,
+      "unit_price": 4.9,
+      "total": 4.88,
+      "discount": 0,
+      "product_id": "cucumber"
+    },
+    {
+      "raw_name": "כוסברה יח",
+      "barcode": "7290019693086",
+      "qty": 1,
+      "unit_price": 3.9,
+      "total": 3.9,
+      "discount": 0,
+      "product_id": "coriander"
+    },
+    {
+      "raw_name": "בננה",
+      "barcode": "623",
+      "qty": 1.095,
+      "unit_price": 7.9,
+      "total": 8.65,
+      "discount": 0,
+      "product_id": "banana"
+    },
+    {
+      "raw_name": "מארז פיתות ברמן",
+      "barcode": "7290004033057",
+      "qty": 1,
+      "unit_price": 15.9,
+      "total": 15.9,
+      "discount": 0,
+      "product_id": "pita-berman"
+    },
+    {
+      "raw_name": "שום קלוף 170 גרם",
+      "barcode": "7290015855143",
+      "qty": 1,
+      "unit_price": 9.9,
+      "total": 9.9,
+      "discount": 0,
+      "product_id": "garlic-peeled-170"
+    },
+    {
+      "raw_name": "ענב לבן מובחר",
+      "barcode": "747",
+      "qty": 1.185,
+      "unit_price": 21.9,
+      "total": 25.95,
+      "discount": 0,
+      "product_id": "grapes-white"
+    },
+    {
+      "raw_name": "אבוקדו",
+      "barcode": "606",
+      "qty": 0.635,
+      "unit_price": 5.9,
+      "total": 3.75,
+      "discount": 0,
+      "product_id": "avocado"
+    },
+    {
+      "raw_name": "תפוח עץ מוזהב",
+      "barcode": "792",
+      "qty": 1.395,
+      "unit_price": 9.9,
+      "total": 13.81,
+      "discount": 0,
+      "product_id": "apples"
+    },
+    {
+      "raw_name": "פלפל חריף",
+      "barcode": "739",
+      "qty": 0.21,
+      "unit_price": 8.9,
+      "total": 1.87,
+      "discount": 0,
+      "product_id": "hot-pepper"
+    },
+    {
+      "raw_name": "מלון",
+      "barcode": "696",
+      "qty": 1.09,
+      "unit_price": 5.9,
+      "total": 6.43,
+      "discount": 0,
+      "product_id": "melon"
+    },
+    {
+      "raw_name": "לחם אחיד פרוס אנג'ל",
+      "barcode": "7290018500361",
+      "qty": 1,
+      "unit_price": 8.4,
+      "total": 8.4,
+      "discount": 0,
+      "product_id": "bread-angel-sliced"
+    },
+    {
+      "raw_name": "שקית גופיה יוחננוף",
+      "barcode": "34560",
+      "qty": 15,
+      "unit_price": 0.1,
+      "total": 1.5,
+      "discount": 0,
+      "skip": true
+    },
+    {
+      "raw_name": "תרומה לבית אלמוג",
+      "barcode": "101114",
+      "qty": 1,
+      "unit_price": 15.0,
+      "total": 15.0,
+      "discount": 0,
+      "skip": true
+    }
+  ],
+  "extra_discounts": [
+    {
+      "label": "חטיפי אסם 2ב6",
+      "amount": 5.8
+    }
+  ],
+  "non_grocery": [
+    "34560",
+    "101114"
+  ],
+  "notes": "Transcribed from 3 photos. Snack promo -5.80 not attributable to one line."
+}
