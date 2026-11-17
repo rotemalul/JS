@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="cards">
+  {% for s in STATUSES %}
+  <a class="card" href="{{ url_for('catalog_view', status=s) }}"><div class="num">{{ counts[s] }}</div><div>{{ STATUS_HE[s] }}</div></a>
+  {% endfor %}
+  <a class="card" href="{{ url_for('receipts_view') }}"><div class="num">{{ n_receipts }}</div><div>קבלות</div></a>
+</section>
+
+<section class="row">
+  <div class="panel">
+    <h2>1. עדכון מחירים</h2>
+    <table>
+      <tr><th>חנות</th><th>פעילה</th><th>עדכון אחרון</th><th>פריטים</th></tr>
+      {% for s in stores %}
+      {% set f = fetched[s.key] %}
+      <tr class="{{ '' if s.enabled else 'muted' }}">
+        <td>{{ s.name }}</td><td>{{ '✓' if s.enabled else '—' }}</td>
+        <td>{{ f.fetched_at if f else ('ידני' if not s.source else 'אף פעם') }}</td><td>{{ f.n_items if f else '' }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <form method="post" action="{{ url_for('fetch') }}"><button>הורד מחירים עכשיו</button></form>
+  </div>
+
+  <div class="panel">
+    <h2>2. השוואת סל</h2>
+    <form method="post" action="{{ url_for('compare') }}">
+      <label><input type="checkbox" name="status" value="core" checked> מוצרים קבועים</label>
+      <label><input type="checkbox" name="status" value="occasional"> מזדמנים</label>
+      <label>תאריך קנייה <input type="date" name="date"></label>
+      <p class="hint">התאריך קובע אילו מבצעים ידניים פעילים (למשל שלישי שוק).</p>
+      <button>מצא את הסל הזול</button>
+    </form>
+    {% if report %}
+      <p>השוואה אחרונה: {{ report.generated }} —
+      {% if report.recommend == 'split' %}פיצול {{ report.best_pair.stores|join(' + ') }} ₪{{ report.best_pair.total }}
+      {% else %}{{ report.best_single.name }} ₪{{ report.best_single.total }}{% endif %}
+      · <a href="{{ url_for('report') }}">לפרטים</a></p>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

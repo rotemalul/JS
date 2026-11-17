@@ -1,0 +1,88 @@
+{
+  "settings": {
+    "min_coverage": 0.8,
+    "split_min_saving": 25,
+    "home_city": "נתיבות",
+    "_note": "split_min_saving: recommend splitting the order only if it saves at least this many ₪ after delivery fees"
+  },
+  "stores": [
+    {
+      "key": "shufersal-online",
+      "name": "שופרסל ONLINE",
+      "source": "shufersal",
+      "store_id": "413",
+      "type": "online",
+      "enabled": true,
+      "delivery_fee": 29.9,
+      "free_delivery_above": null,
+      "clubs": [],
+      "_verified": "2026-11-17 feed works; delivery fee is a placeholder – update"
+    },
+    {
+      "key": "shufersal-netivot",
+      "name": "שופרסל BE נתיבות",
+      "source": "shufersal",
+      "store_id": "145",
+      "type": "physical",
+      "enabled": false,
+      "delivery_fee": 0,
+      "_verified": "2026-11-17 store id from Shufersal Stores file"
+    },
+    {
+      "key": "ramilevy-online",
+      "name": "רמי לוי אונליין",
+      "source": "cerberus",
+      "username": "RamiLevi",
+      "chain_id": "7290058140886",
+      "store_id": "TODO",
+      "type": "online",
+      "enabled": false,
+      "delivery_fee": 29.9,
+      "_verified": "NOT YET – run: python -m basket stores find ramilevy-online אינטרנט  and put the store id"
+    },
+    {
+      "key": "yochananof-online",
+      "name": "יוחננוף אונליין",
+      "source": "cerberus",
+      "username": "yohananof",
+      "chain_id": "7290803800003",
+      "store_id": "TODO",
+      "type": "online",
+      "enabled": false,
+      "delivery_fee": 29.9,
+      "_verified": "NOT YET"
+    },
+    {
+      "key": "osherad-online",
+      "name": "אושר עד",
+      "source": "cerberus",
+      "username": "osherad",
+      "chain_id": "7290103152017",
+      "store_id": "TODO",
+      "type": "online",
+      "enabled": false,
+      "delivery_fee": 0,
+      "_verified": "NOT YET"
+    },
+    {
+      "key": "victory-online",
+      "name": "ויקטורי אונליין",
+      "source": "laib",
+      "chain_id": "7290696200003",
+      "store_id": "TODO",
+      "type": "online",
+      "enabled": false,
+      "delivery_fee": 29.9,
+      "_verified": "NOT YET – laibcatalog.co.il was unreachable from the sandbox"
+    },
+    {
+      "key": "victory-netivot",
+      "name": "ויקטורי נתיבות (חנות פיזית)",
+      "source": null,
+      "type": "physical",
+      "enabled": true,
+      "delivery_fee": 0,
+      "_note": "manual-only for now: prices come from data/manual_deals.json (שלישי שוק). Set source=laib + store_id to add its feed."
+    }
+  ]
+}

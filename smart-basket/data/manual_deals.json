@@ -1,0 +1,16 @@
+{
+  "_help": "Deals the online feeds don't show. weekdays: mon..sun. per: 'unit' (default) or 'kg'. product_id must exist in catalog.json.",
+  "deals": [
+    {
+      "id": "victory-netivot-tuesday-market",
+      "store_key": "victory-netivot",
+      "label": "שלישי שוק – ויקטורי נתיבות",
+      "weekdays": ["tue"],
+      "physical_only": true,
+      "valid_from": null,
+      "valid_until": null,
+      "items": [],
+      "notes": "Fill items after the next visit, e.g. {\"product_id\": \"עגבניות\", \"price\": 2.9, \"per\": \"kg\"}"
+    }
+  ]
+}

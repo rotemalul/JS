@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>קבלות</h1>
+<p class="hint">מוסיפים קבלה: שולחים צילום ל-Claude בשיחה. הוא מתמלל ל-data/receipts/ ומריץ <code>python -m basket receipt import</code>.</p>
+<table><tr><th>תאריך</th><th>חנות</th><th>שורות</th><th>סה"כ</th><th>קובץ</th></tr>
+{% for r in rs %}<tr><td>{{ r.date }}</td><td>{{ r.store }}</td><td>{{ r.lines|length }}</td><td>₪{{ r.total }}</td><td class="small">{{ r._file }}</td></tr>{% endfor %}
+</table>
+{% endblock %}

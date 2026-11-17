@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>מבצעים ידניים</h1>
+<p class="hint">מבצעים שלא מופיעים בקבצי המחירים – למשל "שלישי שוק" בוויקטורי נתיבות. ימים: mon tue wed thu fri sat sun. per: "kg" או "unit".
+product_id חייב להיות מזהה מתוך "המוצרים שלנו". הכי נוח: לשלוח ל-Claude צילום של שלט/פלאייר והוא יעדכן.</p>
+<form method="post"><textarea name="body" rows="28" dir="ltr" class="code">{{ body }}</textarea><br><button>שמור</button></form>
+{% endblock %}

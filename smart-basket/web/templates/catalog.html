@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>המוצרים שלנו {% if status %}· {{ STATUS_HE[status] }}{% endif %}</h1>
+<p class="hint">שינוי סטטוס ידני "נועל" את המוצר – הלמידה מהקבלות לא תשנה אותו.
+<b>קבוע</b> = נכנס להשוואה תמיד. סוג <b>barcode</b> = מוצר מדויק (חלב תנובה 1 ל'); <b>flex</b> = כל מוצר מקביל לפי מילים/גודל.</p>
+<p>{% for s in STATUSES %}<a class="pill" href="?status={{ s }}">{{ STATUS_HE[s] }}</a>{% endfor %}<a class="pill" href="?">הכל</a></p>
+<table>
+<tr><th>מוצר</th><th>קטגוריה</th><th>סטטוס</th><th>כמות לקנייה</th><th>נקנה</th><th>מחיר אחרון</th><th>התאמה</th><th></th></tr>
+{% for p in items %}
+<tr>
+<form method="post" action="{{ url_for('catalog_update', pid=p.id) }}">
+  <td><b>{{ p.name }}</b><div class="small">{{ p.id }}</div></td>
+  <td>{{ p.category }}</td>
+  <td><select name="status">{% for s in STATUSES %}<option value="{{ s }}" {{ 'selected' if p.status == s }}>{{ STATUS_HE[s] }}</option>{% endfor %}</select>{% if p.locked %} 🔒{% endif %}</td>
+  <td><input name="qty" size="4" value="{{ p.need.qty if p.need else 1 }}"></td>
+  <td>{{ p.stats.times_bought if p.stats else 0 }}{% if p.stats and p.stats.frequency is defined %} ({{ (p.stats.frequency*100)|round|int }}%){% endif %}</td>
+  <td>{% if p.stats and p.stats.last_price %}₪{{ p.stats.last_price }}<div class="small">{{ p.stats.last_store }} {{ p.stats.last_bought }}</div>{% endif %}</td>
+  <td><details><summary>{{ p.match.type }}</summary><textarea name="match" rows="4" cols="40" dir="ltr">{{ p.match|tojson }}</textarea></details></td>
+  <td><button>שמור</button></td>
+</form>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

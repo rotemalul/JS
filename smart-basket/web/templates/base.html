@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}סל חכם{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+  <strong>🛒 סל חכם</strong>
+  <nav>
+    <a href="{{ url_for('home') }}">ראשי</a>
+    <a href="{{ url_for('report') }}">השוואה אחרונה</a>
+    <a href="{{ url_for('catalog_view') }}">המוצרים שלנו</a>
+    <a href="{{ url_for('receipts_view') }}">קבלות</a>
+    <a href="{{ url_for('deals') }}">מבצעים ידניים</a>
+    <a href="{{ url_for('search') }}">חיפוש מחיר</a>
+  </nav>
+</header>
+<main>
+  {% with msgs = get_flashed_messages() %}{% for m in msgs %}<div class="flash">{{ m }}</div>{% endfor %}{% endwith %}
+  {% block body %}{% endblock %}
+</main>
+</body>
+</html>

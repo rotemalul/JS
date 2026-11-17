@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# price cache (rebuilt by `fetch`)
+data/prices.db
+data/raw/
+# receipt photos: private, keep local only
+data/receipts/images/*
+!data/receipts/images/.gitkeep
+.DS_Store

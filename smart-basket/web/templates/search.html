@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>חיפוש במחירונים</h1>
+<form><input name="q" value="{{ q }}" placeholder="למשל: קורנפלקס תלמה" size="40" autofocus> <button>חפש</button></form>
+<table><tr><th>חנות</th><th>ברקוד</th><th>שם</th><th>יצרן</th><th>מחיר</th><th>לק"ג/ליטר/יח'</th></tr>
+{% for r in rows %}<tr><td>{{ r.store_key }}</td><td dir="ltr">{{ r.item_code }}</td><td>{{ r.name }}</td><td class="small">{{ r.manufacturer }}</td>
+<td>₪{{ '%.2f'|format(r.price) }}{% if r.is_weighted %}/ק"ג{% endif %}</td><td>{{ '%.2f'|format(r.unit_price) if r.unit_price else '' }}</td></tr>{% endfor %}
+</table>
+{% endblock %}

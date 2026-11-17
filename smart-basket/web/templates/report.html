@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>השוואת סל · {{ r.for_date }}</h1>
+<p class="hint">נוצר {{ r.generated }} · {{ r.products|length }} מוצרים · מבצעים ידניים פעילים: {{ r.deals_active|join(', ') or 'אין' }}</p>
+
+<div class="verdict">
+{% if r.recommend == 'split' %}
+  <b>המלצה: לפצל</b> בין
+  {% for k in r.best_pair.stores %}{{ stores[k] }} (₪{{ r.best_pair.subtotals[k] }}){% if not loop.last %} + {% endif %}{% endfor %}
+  = <b>₪{{ r.best_pair.total }}</b>
+{% elif r.best_single %}
+  <b>המלצה: {{ r.best_single.name }}</b> — ₪{{ r.best_single.total }} (כיסוי {{ (r.best_single.coverage*100)|round|int }}%)
+{% endif %}
+</div>
+
+<h2>חנות אחת</h2>
+<table>
+<tr><th>חנות</th><th>סה"כ</th><th>משלוח</th><th>כיסוי</th><th>הערכה לסל מלא*</th><th>חסרים</th></tr>
+{% for s in r.singles %}
+<tr><td>{{ s.name }}</td><td>₪{{ s.total }}</td><td>₪{{ s.fee }}</td><td>{{ (s.coverage*100)|round|int }}%</td>
+<td>₪{{ s.estimated_full }}</td><td class="small">{{ s.missing|length }}</td></tr>
+{% endfor %}
+</table>
+<p class="hint">* מוצר שחסר בחנות מתומחר לפי חציון המחיר בשאר החנויות, כדי שההשוואה תהיה הוגנת.</p>
+
+{% if r.pairs %}
+<h2>פיצול לשתי חנויות</h2>
+<table>
+<tr><th>חנויות</th><th>סה"כ</th><th>משלוחים</th><th>כיסוי</th><th>הערכה לסל מלא</th></tr>
+{% for p in r.pairs[:5] %}
+<tr><td>{% for k in p.stores %}{{ stores[k] }} ₪{{ p.subtotals[k] }}{% if not loop.last %} + {% endif %}{% endfor %}</td>
+<td>₪{{ p.total }}</td><td>₪{{ p.fees }}</td><td>{{ (p.coverage*100)|round|int }}%</td><td>₪{{ p.estimated_full }}</td></tr>
+{% endfor %}
+</table>
+{% endif %}
+
+<h2>מוצר × חנות</h2>
+<div class="scroll">
+<table class="matrix">
+<tr><th>מוצר</th><th>כמות</th>{% for k in r.singles %}<th>{{ k.name }}</th>{% endfor %}</tr>
+{% for p in r.products %}
+  {% set row = r.matrix[p.id] %}
+  {% set costs = [] %}{% for k in r.singles %}{% if row[k.store] %}{% set _ = costs.append(row[k.store].cost) %}{% endif %}{% endfor %}
+  {% set mn = costs|min if costs else None %}
+  <tr><td>{{ p.name }}</td><td>{{ p.qty }}</td>
+  {% for k in r.singles %}{% set o = row[k.store] %}
+    {% if o %}
+    <td class="{{ 'best' if o.cost == mn }}" title="{{ o.name }} · {{ o.item_code }}{{ ' · ' ~ o.promo if o.promo }}">
+      ₪{{ o.cost }}{% if o.promo %} <span class="tag">מבצע</span>{% endif %}{% if not o.exact %} <span class="tag sub">תחליף</span>{% endif %}
+      <div class="small">{{ o.name }}</div></td>
+    {% else %}<td class="muted">—</td>{% endif %}
+  {% endfor %}</tr>
+{% endfor %}
+</table>
+</div>
+{% endblock %}
